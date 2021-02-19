@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome on Statit user guide.
 
-## Commands
+Statit is a registry for time series that is very simple to use. Here you will learn the basics of how to get time series from the platform.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The guide is organised into three sections:  
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Getting started - to learn the basics
+* Access with Excel
+* Access with the Web API

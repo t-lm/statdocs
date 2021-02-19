@@ -1,5 +1,7 @@
 site_name: Statit docs
 nav:
-    - Home: index.md
-    - About: about.md
+    - Welcome: index.md
+    - Introduction: intro.md
+    - Microsoft Excel: excel.md
+    - Web API: api.md
 theme: readthedocs
