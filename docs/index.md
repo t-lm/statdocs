@@ -2,10 +2,11 @@
 
 Welcome on Statit user guide.
 
-Statit is a registry for time series that is very simple to use. Here you will learn the basics of how to get time series from the platform.
+Statit is an online registry for time series. This guide will help you understand how it works:
 
-The guide is organised into three sections:  
+* [Learn the basics about Statit](intro.md)
+* [Accessing time series on the web](access-web.md)
+* [Accessing time series in Microsoft Excel](access-excel.md)
+* [Publishing time series on the web](publish-web.md)
 
-* Getting started - to learn the basics
-* Access with Excel
-* Access with the Web API
+Please get back to us with any comment: [hi@gostatit.com](mailto:hi@gostatit.com)

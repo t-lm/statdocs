@@ -1,0 +1,5 @@
+run:
+- mkdocs serve
+
+source: background
+https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/

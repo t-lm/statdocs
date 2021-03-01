@@ -1,7 +1,17 @@
-site_name: Statit docs
+site_name: statit guide
 nav:
     - Welcome: index.md
-    - Introduction: intro.md
-    - Microsoft Excel: excel.md
-    - Web API: api.md
-theme: readthedocs
+    - Basics: basics.md
+    - Accessing serie (Web): access-web.md
+    - Accessing serie (Excel): access-excel.md
+    - Publishing serie (Web): publish-web.md
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: amber
+  logo: img/logo_statit_50_white.png
+  favicon: img/favicon.ico
+google_analytics:
+  - UA-XXXXXXXX-X
+  - auto
