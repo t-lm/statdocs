@@ -9,14 +9,11 @@ To get started, follow installation instructions.
 
 ## Installation
 
-### Windows
-- The Microsoft Excel add-in for Windows is under testing and will be released soon on Microsoft App Store
+In an Excel workbook, go to "Insert" and look for "Add-In", then "Download Add-in".
 
-### Mac
-- Download the Excel add-in file though the link on your home page (manifest.xml)
-- Copy the file in: /Users/<username>/Library/Containers/com.microsoft.Excel/Data/Documents/wef
-- Open Microsoft Excel - Click on Insert > Add-ins > My Add-ins and choose Statit Excel
-- Prerequisites: Mac running OS X ("Yosemite" or later), Excel on Mac (version 15.19 or later)
+On the Add-in store, search for add-ins and look for statit. Press add.
+
+The add-in will show as an icon on the right in the main menu. That's it.
 
 
 ## Signin-in

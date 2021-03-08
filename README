@@ -1,5 +1,8 @@
-run:
+run local:
 - mkdocs serve
+
+build:
+- 
 
 theme:
 - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
