@@ -1,34 +1,31 @@
-# Accessing series in Microsoft Excel
+# Statit on Microsoft Excel
 
-This page explains how to use time series directly in Microsoft Excel.
+This page explains how to access, create and edit time series in Microsoft Excel using the Statit Excel add-in.
 
-The benefit is to accelerate discovery of series and use of multiple time series directly in Excel.
-
-To get started, follow installation instructions.
+The Statit Excel "add-in" will allow you to perform basic operations. If you want to go further, you can develop your own add-ins and use the [Statit API](api.md).
 
 
 ## Installation
 
-In an Excel workbook, go to "Insert" and look for "Add-In", then "Download Add-in".
+In an Excel workbook, go to the "Insertion" tab inside the workbook. Look for "Add-Ins" or "Download Add-ins".
 
-On the Add-in store, search for add-ins and look for statit. Press add.
+On Microsoft Add-in store, search for 'statit'. Press add to install the Statit add-in.
 
-The add-in will show as an icon on the right in the main menu. That's it.
+The add-in will show as an icon on the right in the main menu. Good job.
 
 
 ## Signin-in
 
-- Once the add-in opens, click on the "credentials" tab
+- Once the add-in opens, click on the "Sign in" tab
 - Enter your username
 - Enter your API key (you will find this in your web account in the home tab)
 
 
+## Get series
 
-## Simple queries
-
-There are two types of queries in the add-in:
-- simple queries where you get the data directly in the sheet where you are working
-- batch queries where you specific the query in advance and run all the queries together
+There are two ways to run queries in the add-in:
+- Get - You specify the query and get the response directly in the sheet where you are working
+- Batch get - You specify multiple queries in advance, run the queries all together and get the response where it suits you
 
 ### Get a time serie
 
@@ -62,7 +59,7 @@ Notes:
 - You can not perform multiple list queries separated with a ","
 
 
-## Batch queries
+## Batch Get queries
 
 To perform batch queries, insert a "batch" sheet inside your workbook
 
@@ -78,3 +75,34 @@ For every query (on every line), you will get the following codes:
 - Status: OK or error (first cell on the right after target cell)
 - Date: full ISO date (second cell)
 - Size: number of series returned (third cell)
+
+
+## Put series
+
+You can put series directly in the collections you have created in Statit.
+
+You can not create a collection from inside Excel. Head over to the [web instructions](web.md) to learn how to create a collection.
+
+### A single serie
+
+Starting anywhere in the sheet, present the serie you want to put in the following format:
+
+- On line 1, in cell 1, write 'put' (without '')
+- On line 2, in cell 1, write 'id' and in cell 2 the value of the 'id'
+- On line 3, in cell 1, write 'name' and in cell 2 the value of the 'name'
+- On line 4, in cell 1, write 'frequency' and in cell 2 the value of the 'frequency'
+- On line 5, in cell 1, write 'unit' and in in cell 2 the value of the 'unit'
+- On line 8, in cell 1, write the date (in YYYY-MM-DD) format (set the format of the cell as Text) and in cell 2, the value of the observation
+
+Continue with observations on the following lines and press 'Put'.
+
+### Multiple series
+
+You can put multiple series as long as they share the same dates. Just, put the series in columns next to each other and select all series before pressing 'Put'.
+
+The maximum amount of series is limited to 25 for the moment.
+
+
+## Next steps
+
+You have learnt the basics of using the Statit Excel add-in. If you would like to go further, you can integrate Statit to your own add-ins or build a specific one. See the Statit API [here](api.md).
