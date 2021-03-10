@@ -14,7 +14,7 @@
     
     
       
-        <title>Accessing serie (Excel) - statit guide</title>
+        <title>Statit with the API - User Guide</title>
       
     
     
@@ -25,7 +25,7 @@
         
           
           
-          <meta name="theme-color" content="#000000">
+          <meta name="theme-color" content="#ffffff">
         
       
     
@@ -56,7 +56,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="yellow">
       
   
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#accessing-series-in-microsoft-excel" class="md-skip">
+        <a href="#publishing-series-on-the-web" class="md-skip">
           Skip to content
         </a>
       
@@ -79,7 +79,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="statit guide" class="md-header__button md-logo" aria-label="statit guide">
+    <a href=".." title="User Guide" class="md-header__button md-logo" aria-label="User Guide">
       
   <img src="../img/logo_statit_50_white.png" alt="logo">
 
@@ -91,13 +91,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            statit guide
+            User Guide
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Accessing serie (Excel)
+              Statit with the API
             
           </span>
         </div>
@@ -161,12 +161,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="statit guide" class="md-nav__button md-logo" aria-label="statit guide">
+    <a href=".." title="User Guide" class="md-nav__button md-logo" aria-label="User Guide">
       
   <img src="../img/logo_statit_50_white.png" alt="logo">
 
     </a>
-    statit guide
+    User Guide
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -209,8 +209,23 @@
   
   
     <li class="md-nav__item">
-      <a href="../access-web/" class="md-nav__link">
-        Accessing serie (Web)
+      <a href="../web/" class="md-nav__link">
+        Statit on the Web
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../excel/" class="md-nav__link">
+        Statit on Microsoft Excel
       </a>
     </li>
   
@@ -233,12 +248,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Accessing serie (Excel)
+          Statit with the API
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Accessing serie (Excel)
+        Statit with the API
       </a>
       
         
@@ -255,56 +270,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
+  <a href="#collections-and-series" class="md-nav__link">
+    Collections and series
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#signin-in" class="md-nav__link">
-    Signin-in
+  <a href="#creating-a-collection" class="md-nav__link">
+    Creating a collection
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#simple-queries" class="md-nav__link">
-    Simple queries
+  <a href="#adding-a-serie" class="md-nav__link">
+    Adding a serie
   </a>
-  
-    <nav class="md-nav" aria-label="Simple queries">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get-a-time-serie" class="md-nav__link">
-    Get a time serie
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-multiple-time-series" class="md-nav__link">
-    Get multiple time series
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#list-all-time-series-in-a-collection-or-a-specific-path-in-the-collection" class="md-nav__link">
-    List all time series in a collection or a specific path in the collection
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#batch-queries" class="md-nav__link">
-    Batch queries
+  <a href="#adding-multiple-series" class="md-nav__link">
+    Adding multiple series
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-series-through-the-api" class="md-nav__link">
+    Adding series through the API
   </a>
   
 </li>
@@ -313,21 +308,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../publish-web/" class="md-nav__link">
-        Publishing serie (Web)
-      </a>
     </li>
   
 
@@ -357,56 +337,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
+  <a href="#collections-and-series" class="md-nav__link">
+    Collections and series
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#signin-in" class="md-nav__link">
-    Signin-in
+  <a href="#creating-a-collection" class="md-nav__link">
+    Creating a collection
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#simple-queries" class="md-nav__link">
-    Simple queries
+  <a href="#adding-a-serie" class="md-nav__link">
+    Adding a serie
   </a>
-  
-    <nav class="md-nav" aria-label="Simple queries">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#get-a-time-serie" class="md-nav__link">
-    Get a time serie
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get-multiple-time-series" class="md-nav__link">
-    Get multiple time series
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#list-all-time-series-in-a-collection-or-a-specific-path-in-the-collection" class="md-nav__link">
-    List all time series in a collection or a specific path in the collection
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#batch-queries" class="md-nav__link">
-    Batch queries
+  <a href="#adding-multiple-series" class="md-nav__link">
+    Adding multiple series
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-series-through-the-api" class="md-nav__link">
+    Adding series through the API
   </a>
   
 </li>
@@ -424,66 +384,62 @@
               
                 
                 
-                <h1 id="accessing-series-in-microsoft-excel">Accessing series in Microsoft Excel</h1>
-<p>This page explains how to use time series directly in Microsoft Excel.</p>
-<p>The benefit is to accelerate discovery of series and use of multiple time series directly in Excel.</p>
-<p>To get started, follow installation instructions.</p>
-<h2 id="installation">Installation</h2>
-<p>In an Excel workbook, go to "Insert" and look for "Add-In", then "Download Add-in".</p>
-<p>On the Add-in store, search for add-ins and look for statit. Press add.</p>
-<p>The add-in will show as an icon on the right in the main menu. That's it.</p>
-<h2 id="signin-in">Signin-in</h2>
+                <h1 id="publishing-series-on-the-web">Publishing series on the web</h1>
+<p>This page explains how to publish time series using the web application.</p>
+<h2 id="collections-and-series">Collections and series</h2>
+<p>Time series are published inside collections.</p>
+<p>Collections are groups of time series on a specific subject. Inside a collection, your time series will relate to a similar subject, cover a similar time range and be structured in the same way.</p>
+<p>You can see how collections look like here:</p>
 <ul>
-<li>Once the add-in opens, click on the "credentials" tab</li>
-<li>Enter your username</li>
-<li>Enter your API key (you will find this in your web account in the home tab)</li>
+<li><a href="https://www.gostatit.com/airhebdo/dpt">French departmental air pollution indicators</a></li>
+<li><a href="https://www.gostatit.com/hdu/enr">Long-term energy consumption in France</a></li>
 </ul>
-<h2 id="simple-queries">Simple queries</h2>
-<p>There are two types of queries in the add-in:
-- simple queries where you get the data directly in the sheet where you are working
-- batch queries where you specific the query in advance and run all the queries together</p>
-<h3 id="get-a-time-serie">Get a time serie</h3>
-<p>This is the simplest query.</p>
+<p>Inside collections, you will place time series.</p>
+<p>Time series have unique identifiers similar to files on a computer. They follow the following format: [username] / [collection key] / [serie path]:</p>
 <ul>
-<li>Insert the id of a serie in any cell (for instance, cvfr/hosp-dpt/paris/hosp_in)</li>
-<li>With the cell selected, press "GET"</li>
+<li>username is your username with no capital letters</li>
+<li>collection key is a specific identifier for the collection (only alpha-numerical characters and point, underscore and dash characters)</li>
+<li>serie path is a specific identifier for the serie in the collection (same characters as collection key and slash )</li>
 </ul>
-<p>The serie is returned starting in the cell below. Next to the id, you will find the status of the query, the date of the query, the size of the query (number of series returned).</p>
-<p>If there is an error, look at these possible solutions:</p>
+<p>Slashes can be added to the serie path. This is a way to structure how you navigate inside your collection. The slashes play the role of subfolders.</p>
+<p>For instance, the serie <a href="https://www.gostatit.com/bdf-conj/commn/categorie/chaussure/indice-valeur/brut">bdf-conj/commn/categorie/chaussure/indice-valeur/brut</a> has the following structure:</p>
 <ul>
-<li>Fill-in your username and password</li>
-<li>Check the 'id' is correct by finding it on the web application</li>
-<li>Make sure you are online</li>
+<li>username: bdj-conj</li>
+<li>collection key: commn</li>
+<li>serie path: categorie/chaussure/indice-valeur/brut</li>
 </ul>
-<h3 id="get-multiple-time-series">Get multiple time series</h3>
+<p>Collections are either public or private. Public collections will be accessible by anyone on the web. Private collections (and the series inside) will only be visible to the authorised collaborators.</p>
+<h2 id="creating-a-collection">Creating a collection</h2>
 <ul>
-<li>Insert the ids of the series you are looking for separated with a ","</li>
-<li>With the cell selected, press "GET"</li>
+<li>Go to the home page and click on the "publications" tab.</li>
+<li>On the right hand side, click on "Add collection"</li>
+<li>Fill the required fields for the collection: key, name, about ...</li>
+<li>Press save</li>
 </ul>
-<h3 id="list-all-time-series-in-a-collection-or-a-specific-path-in-the-collection">List all time series in a collection or a specific path in the collection</h3>
+<h2 id="adding-a-serie">Adding a serie</h2>
+<p>Now that your collection is created, you can add your first serie:</p>
 <ul>
-<li>Insert the id of the collection or the path to the serie in any cell ending with a "*" (cvfr/hosp-dpt/paris*)</li>
-<li>With the cell selected, press "GET"</li>
+<li>Click on the collection</li>
+<li>On the top right hand side, click on "Add serie"</li>
+<li>Fill the required field for the time serie</li>
+<li>Press save</li>
 </ul>
-<p>Notes:</p>
+<p>You have two options for adding observations:</p>
 <ul>
-<li>You can not perform multiple list queries separated with a ","</li>
+<li>Load a CSV file with the serie observations</li>
+<li>Write (or paste) values manually</li>
 </ul>
-<h2 id="batch-queries">Batch queries</h2>
-<p>To perform batch queries, insert a "batch" sheet inside your workbook</p>
-<p>Starting on the 2nd line, add a line for every query (limited to 25):</p>
+<p>We currenly only accept observations with the following format:</p>
 <ul>
-<li>In the 1st cell, insert the query string (similar to simple queries)</li>
-<li>In the 2nd cell, insert the name of the target worksheet (where the response will be sent)</li>
-<li>In the 3rd cell, insert the name of the target cell (where response will be displayed)</li>
-<li>Press "BATCH"</li>
+<li>Dates following the ISO 8601 format: YYYY-MM-DD (for example: 2021-01-02)</li>
+<li>Values with decimal separator as a point</li>
+<li>Each observation is on one line (date, observation)</li>
+<li>Date and observations must be split by either "," or ";" or a tab</li>
 </ul>
-<p>For every query (on every line), you will get the following codes:</p>
-<ul>
-<li>Status: OK or error (first cell on the right after target cell)</li>
-<li>Date: full ISO date (second cell)</li>
-<li>Size: number of series returned (third cell)</li>
-</ul>
+<h2 id="adding-multiple-series">Adding multiple series</h2>
+<p>We are currently developing a way to bulk upload the series. Stay tuned for the next release.</p>
+<h2 id="adding-series-through-the-api">Adding series through the API</h2>
+<p>We are currently developing the documentation for the API</p>
                 
               
               
@@ -501,7 +457,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../access-web/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../excel/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -510,25 +466,11 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Accessing serie (Web)
+              Statit on Microsoft Excel
             </div>
           </div>
         </a>
       
-      
-        <a href="../publish-web/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Publishing serie (Web)
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
       
     </nav>
   
