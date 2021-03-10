@@ -2,7 +2,10 @@ run local:
 - mkdocs serve
 
 build:
-- 
+- mkdocs build
+
+deploy to github (this is immediate):
+- mkdocs gh-deploy
 
 theme:
 - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/

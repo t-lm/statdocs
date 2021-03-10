@@ -1,15 +1,15 @@
-site_name: statit guide
+site_name: User Guide
 nav:
     - Welcome: index.md
     - Basics: basics.md
-    - Accessing serie (Web): access-web.md
-    - Accessing serie (Excel): access-excel.md
-    - Publishing serie (Web): publish-web.md
+    - Statit on the Web: web.md
+    - Statit on Microsoft Excel: excel.md
+    - Statit with the API: api.md
 theme:
   name: material
   palette:
-    primary: black
-    accent: amber
+    primary: white
+    accent: yellow
   logo: img/logo_statit_50_white.png
   favicon: img/favicon.ico
 google_analytics:

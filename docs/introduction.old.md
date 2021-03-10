@@ -1,4 +1,4 @@
-# Basics
+# Introduction
 
 Statit is a **tool for teams to manage time series collaboratively**.
 
@@ -22,7 +22,7 @@ But **how to share time series**? The best way is to **put time series in a shar
 Think Google docs or Dropbox for time series. But these do not work with time series. Neither does Excel. And setting-up a database is tricky and is just the beginning of a solution.
 
 
-## The solution
+## Statit
 
 Teams need an **out of the box collaborative registry for storing and accessing time series**.
 
@@ -46,19 +46,41 @@ Private collections of time series are only accessible to a select number of col
 
 
 
-## Getting started
+## How to get started:
 
 To understand how Statit works, head over to public collections such as [historical long-term patents declaration in OECD countries since the 17th century](https://gostatit.com/cdi/patents) or [search for one](https://gostatit.com/search)
 
 Explore the collection, explore time series and download time series. Save one of the serie for future reference in your subscriptions.
 
-Then, install the Excel add-in to access data directly in Excel. See the full doc [here](excel.md)
+Then,  
 
-If you are interested in accessing the Statit through the API, head over [here](api.md)
+
+## How to look at Statit
+
+## Time series
+
+Time series record values for a specific metric over time.
+
+Temperature records, economic indices (such as the GDP or milk imports) or social indicators (unemployment) are all time series.
+
+On Statit, each individual time serie has its own page and address. Here, we can have a look at [Monthly air temperature in Britanny in France](https://www.gostatit.com/climat-fr/cei-m/region/bretagne/temp) since 1980.
+
+To learn more about how to explore and use time serie using the web application, please go [here](access-web.md)
+
+
+## Collections
+
+Collections are groups of series on a specific subject.
+
+Statit hosts collections built by independent researchers and analysts. Here is the link to a collection of [Long-term monthly air temperatures for France](https://www.gostatit.com/climat-fr/cei-m).
+
+On the collection home page, you will find background on the time series published: rationale, sources, methodology, organisation, publisher ...
+
+Series in the collection are organised as documents in a computer registry.
 
 
 ## Publishing
 
-Ready to get started and build your own collection? This feature is only available to select users for the moment.
+Statit hosts collections and time series built by analysts and researchers looking to share time-serie data.
 
-Please reach-out to [hi@gostatit.com](mailto:hi@gostatit.com) for us to open it for you.
+To learn more about how to publish on Statit, please go [here](publish-web.md)
