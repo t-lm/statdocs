@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#publishing-series-on-the-web" class="md-skip">
+        <a href="#statit-with-the-api" class="md-skip">
           Skip to content
         </a>
       
@@ -247,66 +247,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Statit with the API
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         Statit with the API
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#collections-and-series" class="md-nav__link">
-    Collections and series
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#creating-a-collection" class="md-nav__link">
-    Creating a collection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-a-serie" class="md-nav__link">
-    Adding a serie
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-multiple-series" class="md-nav__link">
-    Adding multiple series
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-series-through-the-api" class="md-nav__link">
-    Adding series through the API
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -330,49 +273,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#collections-and-series" class="md-nav__link">
-    Collections and series
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#creating-a-collection" class="md-nav__link">
-    Creating a collection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-a-serie" class="md-nav__link">
-    Adding a serie
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-multiple-series" class="md-nav__link">
-    Adding multiple series
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-series-through-the-api" class="md-nav__link">
-    Adding series through the API
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -384,62 +284,7 @@
               
                 
                 
-                <h1 id="publishing-series-on-the-web">Publishing series on the web</h1>
-<p>This page explains how to publish time series using the web application.</p>
-<h2 id="collections-and-series">Collections and series</h2>
-<p>Time series are published inside collections.</p>
-<p>Collections are groups of time series on a specific subject. Inside a collection, your time series will relate to a similar subject, cover a similar time range and be structured in the same way.</p>
-<p>You can see how collections look like here:</p>
-<ul>
-<li><a href="https://www.gostatit.com/airhebdo/dpt">French departmental air pollution indicators</a></li>
-<li><a href="https://www.gostatit.com/hdu/enr">Long-term energy consumption in France</a></li>
-</ul>
-<p>Inside collections, you will place time series.</p>
-<p>Time series have unique identifiers similar to files on a computer. They follow the following format: [username] / [collection key] / [serie path]:</p>
-<ul>
-<li>username is your username with no capital letters</li>
-<li>collection key is a specific identifier for the collection (only alpha-numerical characters and point, underscore and dash characters)</li>
-<li>serie path is a specific identifier for the serie in the collection (same characters as collection key and slash )</li>
-</ul>
-<p>Slashes can be added to the serie path. This is a way to structure how you navigate inside your collection. The slashes play the role of subfolders.</p>
-<p>For instance, the serie <a href="https://www.gostatit.com/bdf-conj/commn/categorie/chaussure/indice-valeur/brut">bdf-conj/commn/categorie/chaussure/indice-valeur/brut</a> has the following structure:</p>
-<ul>
-<li>username: bdj-conj</li>
-<li>collection key: commn</li>
-<li>serie path: categorie/chaussure/indice-valeur/brut</li>
-</ul>
-<p>Collections are either public or private. Public collections will be accessible by anyone on the web. Private collections (and the series inside) will only be visible to the authorised collaborators.</p>
-<h2 id="creating-a-collection">Creating a collection</h2>
-<ul>
-<li>Go to the home page and click on the "publications" tab.</li>
-<li>On the right hand side, click on "Add collection"</li>
-<li>Fill the required fields for the collection: key, name, about ...</li>
-<li>Press save</li>
-</ul>
-<h2 id="adding-a-serie">Adding a serie</h2>
-<p>Now that your collection is created, you can add your first serie:</p>
-<ul>
-<li>Click on the collection</li>
-<li>On the top right hand side, click on "Add serie"</li>
-<li>Fill the required field for the time serie</li>
-<li>Press save</li>
-</ul>
-<p>You have two options for adding observations:</p>
-<ul>
-<li>Load a CSV file with the serie observations</li>
-<li>Write (or paste) values manually</li>
-</ul>
-<p>We currenly only accept observations with the following format:</p>
-<ul>
-<li>Dates following the ISO 8601 format: YYYY-MM-DD (for example: 2021-01-02)</li>
-<li>Values with decimal separator as a point</li>
-<li>Each observation is on one line (date, observation)</li>
-<li>Date and observations must be split by either "," or ";" or a tab</li>
-</ul>
-<h2 id="adding-multiple-series">Adding multiple series</h2>
-<p>We are currently developing a way to bulk upload the series. Stay tuned for the next release.</p>
-<h2 id="adding-series-through-the-api">Adding series through the API</h2>
-<p>We are currently developing the documentation for the API</p>
+                <h1 id="statit-with-the-api">Statit with the API</h1>
                 
               
               
