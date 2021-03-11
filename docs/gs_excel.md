@@ -2,7 +2,7 @@
 
 This page explains how to access, create and edit time series in Microsoft Excel using the Statit Excel add-in.
 
-The Statit Excel "add-in" will allow you to perform basic operations. If you want to go further, you can develop your own add-ins and use the [Statit API](api.md).
+The Statit Excel "add-in" will allow you to perform basic operations. If you want to go further, you can develop your own add-ins and use the [Statit API](gs_api.md).
 
 
 ## Installation
@@ -81,7 +81,7 @@ For every query (on every line), you will get the following codes:
 
 You can put series directly in the collections you have created in Statit.
 
-You can not create a collection from inside Excel. Head over to the [web instructions](web.md) to learn how to create a collection.
+You can not create a collection from inside Excel. Head over to the [web instructions](gs_web.md) to learn how to create a collection.
 
 ### A single serie
 
@@ -105,4 +105,4 @@ The maximum amount of series is limited to 25 for the moment.
 
 ## Next steps
 
-You have learnt the basics of using the Statit Excel add-in. If you would like to go further, you can integrate Statit to your own add-ins or build a specific one. See the Statit API [here](api.md).
+You have learnt the basics of using the Statit Excel add-in. If you would like to go further, you can integrate Statit to your own add-ins or build a specific one. See the Statit API [here](gs_api.md).

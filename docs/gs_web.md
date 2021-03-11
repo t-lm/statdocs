@@ -61,7 +61,7 @@ The collection page will provide the background on the time series included: rat
 
 You have now learnt the basics of Statit: how to find a serie, how to use it and follow it, how to find a collection and navigate inside it.
 
-If you would like to use time series directly in Excel, please go to the [Excel section](excel.md)
+If you would like to use time series directly in Excel, please go to the [Excel section](gs_excel.md)
 
 If you would like to start your own collections, continue reading.
 
@@ -160,6 +160,6 @@ If you want to make your collection publicly visible. Add a user with the userna
 
 You have now learnt the basics of building and sharing a collection on Statit.  
 
-If you would like to put time series directly from Excel, please go to the [Excel section](excel.md)
+If you would like to put time series directly from Excel, please go to the [Excel section](gs_excel.md)
 
-If you would like to learn how to work with Statit using the API, go [here](api.md)
+If you would like to learn how to work with Statit using the API, go [here](gs_api.md)

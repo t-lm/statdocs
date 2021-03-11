@@ -52,9 +52,9 @@ To understand how Statit works, head over to public collections such as [histori
 
 Explore the collection, explore time series and download time series. Save one of the serie for future reference in your subscriptions.
 
-Then, install the Excel add-in to access data directly in Excel. See the full doc [here](excel.md)
+Then, install the Excel add-in to access data directly in Excel. See the full doc [here](gs_excel.md)
 
-If you are interested in accessing the Statit through the API, head over [here](api.md)
+If you are interested in accessing the Statit through the API, head over [here](gs_api.md)
 
 
 ## Publishing

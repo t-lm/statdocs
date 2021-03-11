@@ -1,16 +1,15 @@
-site_name: User Guide
+site_name: Statit User Guide
 nav:
-    - Welcome: index.md
-    - Basics: basics.md
-    - Statit on the Web: web.md
-    - Statit on Microsoft Excel: excel.md
-    - Statit with the API: api.md
+    - What is Statit?: what_is.md
+    - Getting started on the Web: gs_web.md
+    - Getting started on Microsoft Excel: gs_excel.md
+    - Getting started with the REST API: gs_api.md
 theme:
   name: material
   palette:
     primary: white
     accent: yellow
-  logo: img/logo_statit_50_white.png
+  logo: img/logo_statit_64.png
   favicon: img/favicon.ico
 google_analytics:
   - UA-XXXXXXXX-X
