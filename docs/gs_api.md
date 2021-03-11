@@ -17,7 +17,7 @@ It is split in two sections:
 
 The API relies on POST requests to the API end point.
 
-API version: 2021-02-12
+API version: v1.0.1
 
 ## Set-up and basic concepts
 
