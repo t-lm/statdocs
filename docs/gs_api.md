@@ -1,36 +1,34 @@
 # Getting started with the REST API
+*API version: 1.0.1*
+
+This tutorial will take you the **main operations on the core Statit API**:
+
+- [**Set-up and basic concepts**](#set-up-and-basic-concepts)
+
+- [**Accessing time series**](#accessing-time-series)
+    - Getting a single time serie
+    - Getting a list of time series in a collection
+
+- [**Pushing time series**](#pushing-time-series)
+    - Creating a collection of time series
+    - Pushing series in the collection
+    - Adding authorisation for collaborators
 
 
-This tutorial will show you the main operations to access and push time series on Statit.
+## **Set-up and basic concepts**
 
-It is split in two sections:
+### API format
 
-- Set-up and basic concepts
-- Accessing time series
-  - Getting a single time serie
-  - Getting a list of time series in a collection
+The API accepts **HTTP GET and POST requests**.
 
-- Pushing time series
-  - Creating a collection of time series
-  - Putting series in the collection
-  - Adding authorisation for collaborators
-
-The API relies on POST requests to the API end point.
-
-API version: v1.0.1
-
-## Set-up and basic concepts
-
-#### API format
-
-The API accepts simple HTTP GET and POST requests on the end-point defined below.
-
-For the sake of simplicity, all examples will be presented using 'curl'. You can of course execute the requests in the language of your choice.
+All examples are presented with 'curl'. You can of course execute the requests in the language of your choice.
 
 
-#### End-point
+### End-point
 
-All requests are addressed to the URL https://api.gostatit.com/core. Core stand for the core API.
+All requests must be addressed to: **https://api.gostatit.com/core**.
+
+Core stands for the core API.
 
 ```bash
 ### request
@@ -42,36 +40,36 @@ curl https://api.gostatit.com/core
 {
   "message": "Welcome on Statit core API"
 }
+
 ```
 
-#### Authentication
+### Authentication
 
-To perform requests, you will need to use credentials: your username and API Key.
+Your **requests must be identified with your credentials**: your username and API Key.
 
-Your username is the one you defined on Statit and your API key can be found in the account section in the home page for your profile.
+Your **username** and **API key** can be found in the **account section** in the home page for your profile.
 
-For the moment, the API uses basic Http authentication. On the command line, it looks like
+The API uses **basic Http authentication**. On the command line, it looks like
 
 ```bash
 ### request
 
 curl  -X POST \
-      -u username:apiKey \
+      -u username:apikey \
       https://api.gostatit.com/core
 
 ### response
 
 {
-    "code": "ERROR_PARAM_REQUIRED",
-    ...
+  "code": "ERROR_PARAM_REQUIRED", ...
 }
 ```
 
-#### Actions
+### Actions
 
-Once you are authentified, it is time to call specific actions: getSerie, getCollection, putSerie ...
+Once you are authentified, you can call specific actions: getSerie, getCollection, putSerie ...
 
-We will do this by adding a json object to the query specifying the action called and the inputs required.
+You will do this by adding a json object to the query specifying the action called and the required inputs for the action.
 
 
 ```bash
@@ -96,10 +94,10 @@ curl -X POST \
 
 In the request above, we call the 'getSerie' action to get a single serie and pass a parameter called input with the 'id' of the serie we are requiring.
 
-If you would like to learn the basics about serie identification, please head over to [Getting started on the web](gs_web.md).
+If you would like to learn the basics about serie identifiers, please head over to [Getting started on the web](gs_web.md).
 
 
-#### Errors
+### Errors
 
 If your request can not be processed, the API will return an error code with an error message.
 
@@ -123,18 +121,18 @@ curl -X POST \
 ```
 
 
-#### Next steps
+### Next steps
 
-That's it. You have learnt the basics of how the API works. Head-over to the next sections to understand how to get time series from a registry or create a collection and push time series inside.
+You have learnt the basics of how the API works. In the next sections, we will cover how to access time series, create a collection and push time series.
 
 
-## Accessing time series
+## **Accessing time series**
 
 ### Getting a single time serie
 
-We have already explored this request in the example above.
+We have already explored this in the example above.
 
-#### Example:
+#### Example
 
 ```bash
 ### request
@@ -164,36 +162,19 @@ curl -X POST \
 ```
 
 
-#### Parameters
-
-- action: 'getSerie'
-- input: { id: 'id' of the serie requested }
-
-#### Response:
-
-There are three different responses:
-
-- If you are not authorised to access this collection, you will receive an error.
-- If you are authorised to access the collection and the serie exists, you will receive a JSON response with an Item object.
-- If are authorised to access the collection but the serie does not exist, you will receive an empty object
-
-The Item object is quite explicit. It contains both serie metadata and observations in a "stringified" array.
+The Item object is quite explicit. It contains both serie metadata and data. Note that observations is a stringified array. You can transform it into an array using JSON parsers.
 
 
-### Listing time series in a collection
+### Listing time series
 
-#### Introduction
+The API let you request "children" series with a single parent.
 
-It is possible to get multiple series in a single go.
+As an example, if you are looking to get all indicators for waste in "Paris", you will call [dechets-fr/dma-dpt/paris/dechets-menagers-associes](https://gostatit.com/dechets-fr/dma-dpt/paris/dechets-menagers-associes) and the request will return all related time series.
 
-For the moment, the API accepts requests that specify the parent and will provide all the "children" series.
-
-As an example, if we are looking to get all waste indicators for "déchets ménagers associés" in the "Paris" department, we will query [dechets-fr/dma-dpt/paris/dechets-menagers-associes](https://gostatit.com/dechets-fr/dma-dpt/paris/dechets-menagers-associes).
-
-It is necessary to specify exactly the id of the parent. The response returned will have a maximum size of 1MB.
+It is necessary to specify exactly the id of the parent. The size of the response is limited to 1MB.
 
 
-#### Example:
+#### Example
 
 ```bash
 ### request
@@ -225,27 +206,11 @@ curl -X POST \
 ```
 
 
-#### Parameters
+## **Pushing time series**
 
-- action: 'listSeries'
-- input: { id: 'id' of the parent }
+Before using the API to create a collection and push time series, we recommended you try doing it on the web first. Follow the [documentation](gs_web.md) to understand the main concepts.
 
-#### Response:
-
-There are three different responses:
-
-- If you are not authorised to access this collection, you will receive an error.
-- If you are authorised to access the collection and children series exist, you will receive a JSON response with an Items object containing all the series.
-- If are authorised to access the collection but the serie does not exist, you will receive an empty object
-
-The items in the Items array are the same as the Item in getSerie
-
-
-## Pushing time series
-
-We recommended you try building a collection and pushing time series first using the web interface. Follow the [documentation](gs_web.md) to understand the main concepts.
-
-In this tutorial, we will only recap the main steps to:
+Once you have done this, we will only recap the main steps to:
 
 - Create a collection
 - Add series to the collection
@@ -253,10 +218,12 @@ In this tutorial, we will only recap the main steps to:
 
 ### Creating a collection
 
-You create a new collection by providing its 'id' and its 'name'.
+You create a new collection by providing its 'id' and its 'name'. For this demo, we will create a temperature collection named 'temp'.
+
+Replace username and apikey by your credentials below.
 
 
-#### Example:
+#### Example
 
 ```bash
 ### request
@@ -264,54 +231,30 @@ You create a new collection by providing its 'id' and its 'name'.
 curl -X POST \
     -u username:apikey \
     -H "Content-Type: application/json" \
-    -d '{"action": "putCollection", "input": \
-      {"id": "[USERNAME]/[COLLECTION_KEY]", \
-      "name": [COLLECTION_NAME]}}' \
+    -d '{"action": "putCollection", "input": {"id": "username/temp", "name": "My temperature collection" }}' \
     https://api.gostatit.com/core
+
 
 ### response
 
 {
   "input": {
-    "id": "[USERNAME]/[COLLECTION_KEY]"
+    "id": "username/temp"
   }
 }
 ```
 
-
-#### Parameters
-
-- action: putCollection
-- input:
-  - id - string - required: ID of the collection
-  - name - string - required: Mame of the collection
-  - about - string - optional: A descriptive field. Text format
-  - frequency - string - optional: A descriptive field. Authorised values: D, W, M, Q, S, Y
-  - description  - string - optional: A descriptive field. Text or markdown format.
-  - start - string - optional: A descriptive field for the start date of the series (YYYY-MM-DD)
-  - end -  string - optional: A descriptive field for the end date of the series (YYYY-MM-DD)
-  - language - string - optional: A descriptive field for the language used in the collection. Authorised values: en, fr, de
-  - tags - array - optional: Tags related to the collection
-
-
-#### Response
-
-There are two different responses:
-
-- If your username is incorrect or if the 'id' or 'name' fail validation, you will receive an error.
-- If the request is successful, you will receive an input object with the 'id' of the collection
+That's it. You have created your username/temp collection. Well done.
 
 
 ### Put a serie
 
-Now that you have created the collection, you can push series inside.
+Now, let's add a serie inside.
 
-The required parameters for a serie are: serie ID, name and frequency. The serie ID is built based on the username, the collection key and a specific serie id.
-
-Slashes are authorised inside serie keys.
+The required parameters for a serie are: id, name and frequency.
 
 
-#### Example:
+#### Example
 
 ```bash
 ### request
@@ -319,53 +262,35 @@ Slashes are authorised inside serie keys.
 curl -X POST \
     -u username:apikey \
     -H "Content-Type: application/json" \
-    -d '{"action": "putSerie", "input": { "id": "USERNAME/COLLECTION_KEY/SERIE_KEY", "name": "SERIE_NAME", "frequency": "D" }}' \
+    -d '{"action": "putSerie", "input": {"id": "username/temp/new-york", "name": "New York temperatures", "frequency": "D", "observations": "[[\"2021-03-07\", 10.0], [\"2021-03-08\", 11.4]]" }}' \
     https://api.gostatit.com/core
+
 
 
 ### response
 
 {
   "input": {
-    "id": "USERNAME/COLLECTION_KEY/SERIE_KEY"
+    "id": "username/temp/new-york"
   }
 }
 ```
 
-
-#### Parameters
-
-- action: putSerie
-- input:
-  - id - string - required: ID of the serie
-  - name - string - required: Mame of the serie
-  - frequency - string - required: Frequency of the serie. Authorised values: D, W, M, Q, S, Y
-  - description - string - optional: Description of the serie. Text format
-  - unit - string - optional: Unit of the serie
-  - sources - array - optional: List of sources
-  - tags - array - optional: List of tags for the serie
-  - notes - array - optional: List of notes
-  - observations - string - optional: a stringified array of individual observations "[[date1, val1], [date2, val2]]"
-
-
-#### Response
-
-There are two different responses:
-
-- If the username, the collection key, the serie key or the serie parameters are invalid, you will receive an error.
-- If the request is successful, you will receive an input object with the 'id' of the serie
+That's it. You have added the username/temp/new-york serie to your collection. Congrats.
 
 
 ### Add an authorisation
 
-You have created a collection and pushed a serie inside.
-
 Now is the time to create an authorisation to make your serie available to other people.
 
-For simplicity, we will make the serie public.
+To keep it simple, we will make our serie public. To achieve this, we will use "public" as a username.
+
+Before we do this, try to access your series on https://gostatit.com/YOUR-USERNAME/temp/new-york. If you are not signed-in, you will not be able to see the serie.
+
+Then, create the authorisation.
 
 
-#### Example:
+#### Example
 
 ```bash
 ### request
@@ -373,7 +298,7 @@ For simplicity, we will make the serie public.
 curl -X POST \
     -u username:apikey \
     -H "Content-Type: application/json" \
-    -d '{"action": "putSerie", "input": { "id": "USERNAME/COLLECTION_KEY/SERIE_KEY", "name": "SERIE_NAME", "frequency": "D" }}' \
+    -d '{"action": "putCollectionAuth", "input": { "id": "username/temp", "username": "public", "type": "viewer" }}' \
     https://api.gostatit.com/core
 
 
@@ -381,30 +306,91 @@ curl -X POST \
 
 {
   "input": {
-    "id": "USERNAME/COLLECTION_KEY/SERIE_KEY"
+    "id": "username/temp",
+    "username": "public",
+    "type": "viewer"
   }
 }
 ```
 
+Well done. Now check https://gostatit.com/YOUR-USERNAME/temp/new-york. Your collection and serie can be accessed by everyone.
 
-#### Parameters
+### Removing the authorisation
 
-- action: putSerie
-- input:
-  - id - string - required: ID of the serie
-  - name - string - required: Mame of the serie
-  - frequency - string - required: Frequency of the serie. Authorised values: D, W, M, Q, S, Y
-  - description - string - optional: Description of the serie. Text format
-  - unit - string - optional: Unit of the serie
-  - sources - array - optional: List of sources
-  - tags - array - optional: List of tags for the serie
-  - notes - array - optional: List of notes
-  - observations - string - optional: a stringified array of individual observations "[[date1, val1], [date2, val2]]"
+Time to clean-up. Let's remove the "publics" authorisation.
+
+#### Example
+
+```bash
+### request
+
+curl -X POST \
+    -u username:apikey \
+    -H "Content-Type: application/json" \
+    -d '{"action": "deleteCollectionAuth", "input": { "id": "username/temp", "username": "public" }}' \
+    https://api.gostatit.com/core
 
 
-#### Response
+### response
 
-There are two different responses:
+{
+  "input": {
+    "id": "username/temp",
+    "username": "public",
+  }
+}
+```
 
-- If the username, the collection key, the serie key or the serie parameters are invalid, you will receive an error.
-- If the request is successful, you will receive an input object with the 'id' of the serie
+### Removing the serie
+
+Now, let's remove the serie from the collection.
+
+
+```bash
+### request
+
+curl -X POST \
+    -u username:apikey \
+    -H "Content-Type: application/json" \
+    -d '{"action": "deleteSerie", "input": { "id": "username/temp/new-york" }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  "input": {
+    "id": "username/temp/new-york",
+  }
+}
+```
+
+### Removing the collection
+
+Now that we have emptied the collection, we can safely remove it.
+
+
+```bash
+### request
+
+curl -X POST \
+    -u username:apikey \
+    -H "Content-Type: application/json" \
+    -d '{"action": "deleteCollection", "input": { "id": "username/temp" }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  "input": {
+    "id": "username/temp",
+  }
+}
+```
+
+That's it. You have completed the tutorial. Congratulations.
+
+### Next steps
+
+You will find the full API reference [here](ref_api.md)

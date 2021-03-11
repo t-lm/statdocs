@@ -1,4 +1,4 @@
-# Basics
+# **What is Statit?**
 
 Statit is a **tool for teams to manage time series collaboratively**.
 
