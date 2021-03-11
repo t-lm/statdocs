@@ -13,6 +13,7 @@ The **following three sections** explain how to use Statit in various ways
 * [Working with Statit on the web](gs_web.md)
 * [Working with Statit on Microsoft Excel](gs_excel.md)
 * [Working with Statit with the API ](gs_api.md)
+* [API reference](ref_api.md)
 
 We are preparing tutorials to help you get started on simple workflows. Stay tuned.
 

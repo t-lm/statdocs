@@ -4,6 +4,7 @@ nav:
     - Getting started on the Web: gs_web.md
     - Getting started on Microsoft Excel: gs_excel.md
     - Getting started with the REST API: gs_api.md
+    - REST API reference: ref_api.md
 theme:
   name: material
   palette:
