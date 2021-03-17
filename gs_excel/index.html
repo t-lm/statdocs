@@ -266,6 +266,19 @@
     Get a time serie
   </a>
   
+    <nav class="md-nav" aria-label="Get a time serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-a-specific-version" class="md-nav__link">
+    Get a specific version
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -305,6 +318,13 @@
           <li class="md-nav__item">
   <a href="#a-single-serie" class="md-nav__link">
     A single serie
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    Metadata
   </a>
   
 </li>
@@ -417,6 +437,19 @@
     Get a time serie
   </a>
   
+    <nav class="md-nav" aria-label="Get a time serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#get-a-specific-version" class="md-nav__link">
+    Get a specific version
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -456,6 +489,13 @@
           <li class="md-nav__item">
   <a href="#a-single-serie" class="md-nav__link">
     A single serie
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    Metadata
   </a>
   
 </li>
@@ -522,6 +562,10 @@
 <li>Check the 'id' is correct by finding it on the web application</li>
 <li>Make sure you are online</li>
 </ul>
+<h4 id="get-a-specific-version">Get a specific version</h4>
+<p>You can get the specific version of a serie by including the 'key' of the version behind the serie id separated with a ':'.
+You will find the existing versions in the serie page (click on the 'Version' link below the serie 'path')
+Versions are only available when getting a single time serie</p>
 <h3 id="get-multiple-time-series">Get multiple time series</h3>
 <ul>
 <li>Insert the ids of the series you are looking for separated with a ","</li>
@@ -529,7 +573,7 @@
 </ul>
 <h3 id="list-all-time-series-in-a-collection-or-a-specific-path-in-the-collection">List all time series in a collection or a specific path in the collection</h3>
 <ul>
-<li>Insert the id of the collection or the path to the serie in any cell ending with a "*" (cvfr/hosp-dpt/paris*)</li>
+<li>Insert the id of the parent of the series you want to get "*" (cvfr/hosp-dpt/paris*)</li>
 <li>With the cell selected, press "GET"</li>
 </ul>
 <p>Notes:</p>
@@ -540,7 +584,7 @@
 <p>To perform batch queries, insert a "batch" sheet inside your workbook</p>
 <p>Starting on the 2nd line, add a line for every query (limited to 25):</p>
 <ul>
-<li>In the 1st cell, insert the query string (similar to simple queries)</li>
+<li>In the 1st cell, insert the query string (similar to a simple query)</li>
 <li>In the 2nd cell, insert the name of the target worksheet (where the response will be sent)</li>
 <li>In the 3rd cell, insert the name of the target cell (where response will be displayed)</li>
 <li>Press "BATCH"</li>
@@ -561,10 +605,18 @@
 <li>On line 2, in cell 1, write 'id' and in cell 2 the value of the 'id'</li>
 <li>On line 3, in cell 1, write 'name' and in cell 2 the value of the 'name'</li>
 <li>On line 4, in cell 1, write 'frequency' and in cell 2 the value of the 'frequency'</li>
-<li>On line 5, in cell 1, write 'unit' and in in cell 2 the value of the 'unit'</li>
-<li>On line 8, in cell 1, write the date (in YYYY-MM-DD) format (set the format of the cell as Text) and in cell 2, the value of the observation</li>
+<li>On line 5, optionally, in cell 1, write 'unit' and in in cell 2 the value of the 'unit'</li>
+<li>On line 6, optionally, in cell 1, write 'description' and in in cell 2 the value of the 'description'</li>
+<li>On line 7, optionally, in cell 1, write 'sources' and in in cell 2 the value of the 'sources'</li>
+<li>On line 8, optionally, in cell 1, write 'notes' and in in cell 2 the value of the 'notes'</li>
+<li>On line 9, optionally, in cell 1, write 'version' and in in cell 2 the value of the 'version'. Version is a comment that is specifically linked to the version published</li>
+<li>On line 11, in cell 1, write the date (in YYYY-MM-DD) format (set the format of the cell as Text) and in cell 2, the value of the observation</li>
 </ul>
 <p>Continue with observations on the following lines and press 'Put'.</p>
+<h3 id="metadata">Metadata</h3>
+<p>You can add specific text metadata for each observation.</p>
+<p>For instance, for a specific value, you might want to add a commentary. If you are looking to add metadata, you can use the column next to observations to do so.</p>
+<p>On top of the column with metadata (next to the id of the serie), place a 'm' (for metadata).</p>
 <h3 id="multiple-series">Multiple series</h3>
 <p>You can put multiple series as long as they share the same dates. Just, put the series in columns next to each other and select all series before pressing 'Put'.</p>
 <p>The maximum amount of series is limited to 25 for the moment.</p>
