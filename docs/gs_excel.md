@@ -42,6 +42,12 @@ If there is an error, look at these possible solutions:
 - Check the 'id' is correct by finding it on the web application
 - Make sure you are online
 
+#### Get a specific version
+
+You can get the specific version of a serie by including the 'key' of the version behind the serie id separated with a ':'.
+You will find the existing versions in the serie page (click on the 'Version' link below the serie 'path')
+Versions are only available when getting a single time serie
+
 
 ### Get multiple time series
 
@@ -51,7 +57,7 @@ If there is an error, look at these possible solutions:
 
 ### List all time series in a collection or a specific path in the collection
 
-- Insert the id of the collection or the path to the serie in any cell ending with a "\*" (cvfr/hosp-dpt/paris\*)
+- Insert the id of the parent of the series you want to get "\*" (cvfr/hosp-dpt/paris\*)
 - With the cell selected, press "GET"
 
 Notes:
@@ -65,7 +71,7 @@ To perform batch queries, insert a "batch" sheet inside your workbook
 
 Starting on the 2nd line, add a line for every query (limited to 25):
 
-- In the 1st cell, insert the query string (similar to simple queries)
+- In the 1st cell, insert the query string (similar to a simple query)
 - In the 2nd cell, insert the name of the target worksheet (where the response will be sent)
 - In the 3rd cell, insert the name of the target cell (where response will be displayed)
 - Press "BATCH"
@@ -91,10 +97,23 @@ Starting anywhere in the sheet, present the serie you want to put in the followi
 - On line 2, in cell 1, write 'id' and in cell 2 the value of the 'id'
 - On line 3, in cell 1, write 'name' and in cell 2 the value of the 'name'
 - On line 4, in cell 1, write 'frequency' and in cell 2 the value of the 'frequency'
-- On line 5, in cell 1, write 'unit' and in in cell 2 the value of the 'unit'
-- On line 8, in cell 1, write the date (in YYYY-MM-DD) format (set the format of the cell as Text) and in cell 2, the value of the observation
+- On line 5, optionally, in cell 1, write 'unit' and in in cell 2 the value of the 'unit'
+- On line 6, optionally, in cell 1, write 'description' and in in cell 2 the value of the 'description'
+- On line 7, optionally, in cell 1, write 'sources' and in in cell 2 the value of the 'sources'
+- On line 8, optionally, in cell 1, write 'notes' and in in cell 2 the value of the 'notes'
+- On line 9, optionally, in cell 1, write 'version' and in in cell 2 the value of the 'version'. Version is a comment that is specifically linked to the version published
+- On line 11, in cell 1, write the date (in YYYY-MM-DD) format (set the format of the cell as Text) and in cell 2, the value of the observation
 
 Continue with observations on the following lines and press 'Put'.
+
+
+### Metadata
+
+You can add specific text metadata for each observation.
+
+For instance, for a specific value, you might want to add a commentary. If you are looking to add metadata, you can use the column next to observations to do so.
+
+On top of the column with metadata (next to the id of the serie), place a 'm' (for metadata).
 
 ### Multiple series
 

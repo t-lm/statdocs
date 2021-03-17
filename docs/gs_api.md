@@ -149,10 +149,9 @@ curl -X POST \
   "Item": {
     "unit": "Degree Celcius",
     "frequency": "M",
-    "sources": [ "Copernicus. Climate and Environmental Series" ],
+    "sources": "Copernicus. Climate and Environmental Series",
     "name": "Monthly real temperature",
     "updated": "2021-03-10T17:14:45.504Z",
-    "notes": [],
     "observations": "[[\"1979-01-01\", \"1.6\"], [\"1979-02-01\", \"5.3\"], [\"1979-03-01\", \"6.7\"], [\"1979-04-01\", \"8.5\"], [\"1979-05-01\", \"11.0\"], [\"1979-06-01\", \"14.6\"] ..."
     "description": "Average monthly temperature (degree Celcius)",
     "id": "climat-fr/cei-m/region/bretagne/temp",
@@ -192,7 +191,7 @@ curl -X POST \
     {
       "unit": "Tons",
       "frequency": "Y",
-      "sources": [ "Base Sinoe de l'Ademe" ],
+      "sources": "Base Sinoe de l'Ademe" ,
       "name": "Paris | Déchets ménagers et associés | Valorisation énergétique",
       "updated": "2021-02-24T07:05:32.120Z",
       "observations": "[[\"2009-01-01\", \"842125.33407\"], [\"2011-01-01\", \"833876.24514\"], [\"2013-01-01\", \"803965.81276\"], ...]",

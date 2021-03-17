@@ -47,9 +47,6 @@ putCollection can not be used to overwrite an existing collection. Collection up
     - **about** - **String** - *optional*. A field describing the collection in one sentence. Text format
     - **frequency** - **String** - *optional*. A descriptive field. Accepted values: D (day), W (week), M (month), Q (quarter), S (semester), Y (year)
     - **description** - **String** - *optional*. A descriptive field. Text or markdown format.
-    - **start** - **String** - *optional*. A descriptive field for the start date of the series (YYYY-MM-DD)
-    - **end** -  string - *optional*. A descriptive field for the end date of the series (YYYY-MM-DD)
-    - **language** - **String** - *optional*. A descriptive field for the language used in the collection. Accepted values are 2-letters ISO language codes (such as fr or en)
     - **tags** - **Array** - *optional*. Tags related to the collection
 
 #### Response
@@ -73,9 +70,6 @@ putCollection can not be used to overwrite an existing collection. Collection up
     - **about** - **String** - *optional*. A field describing the collection in one sentence. Text format
     - **frequency** - **String** - *optional*. A descriptive field. Accepted values: D (day), W (week), M (month), Q (quarter), S (semester), Y (year)
     - **description** - **String** - *optional*. A descriptive field. Text or markdown format.
-    - **start** - **String** - *optional*. A descriptive field for the start date of the series (YYYY-MM-DD)
-    - **end** -  string - *optional*. A descriptive field for the end date of the series (YYYY-MM-DD)
-    - **language** - **String** - *optional*. A descriptive field for the language used in the collection. Accepted values are 2-letters ISO language codes (such as fr or en)
     - **tags** - **Array** - *optional*. Tags related to the collection
 
 #### Response
@@ -105,9 +99,6 @@ putCollection can not be used to overwrite an existing collection. Collection up
     - **about** - **String**. A field describing the collection in one sentence.
     - **frequency** - **String**. A descriptive field.
     - **description**  - **String**. A descriptive field.
-    - **start** - **String**. Start date of the series (YYYY-MM-DD)
-    - **end** - **String**. End date of the series (YYYY-MM-DD)
-    - **language** - **String**. A descriptive field for the language used in the collection. Accepted values: en, fr, de
     - **tags** - **Array**. Tags related to the collection
 
 
@@ -203,16 +194,17 @@ putSerie is used to create the serie as well as to update it. Every putSerie cre
     - **frequency** - **String** - *required*. Frequency of the serie. Accepted values: D, W, M, Q, S, Y
     - **description** - **String** - *optional*. Description of the serie. Text format
     - **unit**- **String** - *optional*. Unit of the serie
-    - **sources** - **Array** - *optional*. List of sources
+    - **sources** - **String** - *optional*. Sources
     - **tags** - **Array** - *optional*. List of tags for the serie
-    - **notes** - **Array** - *optional*. List of notes
-    - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]"
+    - **notes** - **String** - *optional*. Publication notes
+    - **observations** - **String** - *optional*. A stringified array of individual observations, for instance "[\"2021-03-07\", 62.0], [\"2021-03-08\", 105.0]". Observation metadata can be added as a third element in each observation array ("[\"2021-03-08\", 105.0, \"value computed\"]"). If metadata is added, it must be added on everyline
+    - **version** - **String** - *optional*. A short comment that will be recorded with the specific serie update
+
 
 #### Response
 
 - **input** - **Object**:
     - **id**: id of the serie
-
 
 
 
@@ -257,12 +249,10 @@ Up to 25 series can be put in a single call.
     - **description** - **String** - *optional*. Description of the serie
     - **observations** - **String** - *optional*. A stringified array of individual observations
     - **unit**- **String** - *optional*. Unit of the serie
-    - **sources** - **Array** - *optional*. List of sources
+    - **sources** - **String** - *optional*. Sources (separated with a ";")
     - **tags** - **Array** - *optional*. List of tags for the serie
-    - **notes** - **Array** - *optional*. List of notes
-
-
-
+    - **notes** - **String** - *optional*. Publication notes
+    - **version** - **String** - *optional*. A comment linked to the version
 
 ## **listSeries**
 

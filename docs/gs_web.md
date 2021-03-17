@@ -48,6 +48,13 @@ If you are interested in the serie and would like to save it for future referenc
 The series you follow will be accessible from your home page in the favorites tab. On this tab, you will be able to set a notification when to get an alert when the serie is updated.
 
 
+### Exploring previous versions
+
+On the serie page, below the 'path' of the serie, you will find a "Version" badge indicating 'last' or a specific version date. Click on 'Version' to list all the versions of the serie.
+
+Click on a specific version to access the serie as it was for this version.
+
+
 ### Collections
 
 Time series belong to collections which are groups of related series. You can navigate in the collection by clicking on the grey links just under the serie name.
@@ -135,6 +142,12 @@ We currently only accept observations with the following format:
 - Values with decimal separator as a point
 - Each observation is on one line (date, observation)
 - Date and observations must be split by either "," or ";" or a tab
+
+#### Observation-level metadata
+
+You can add text metadata at observation level. To do so, add the metadata value after the value.
+
+If you choose to add metadata to an observation, you will need to add a metadata field to all observations. This field can be empty ("") but will need to exist
 
 
 ### Adding authorisations
