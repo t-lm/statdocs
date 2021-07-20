@@ -2,7 +2,7 @@
 
 Statit can be used fully in the browser.
 
-This section explains **how to start using Statit with a web browser**. For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](reference/web.md).
+This section explains **how to start using Statit with a web browser**. For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](/reference/web.md).
 
 Before continuing, **please sign-in to your account [here](https://gostatit.com/signin)** or **create one [here](https://gostatit.com/signup)**.
 
@@ -71,4 +71,4 @@ Charts are placed inside galeries and dashboards. Click on the ["regions" galler
 
 You have now learnt about the basics of Statit: its organisation and how to navigate collections and galleries.
 
-If you would like to understand how to create your own workspace and publish metrics, head over to the full web reference. If you would like to access metrics in Excel, go [here](gs/excel.md)
+If you would like to understand how to create your own workspace and publish metrics, head over to the full web reference. If you would like to access metrics in Excel, go [here](/gs/excel.md)

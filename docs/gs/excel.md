@@ -2,9 +2,9 @@
 
 Statit can be used to access and edit metrics in Excel.
 
-Make sure you have read [**getting started with Statit on the web**](gs/web.md) to understand the basics of how Statit works.
+Make sure you have read [**getting started with Statit on the web**](/gs/web.md) to understand the basics of how Statit works.
 
-This section explains **how to start using Statit with Excel**. For the complete documentation covering Excel, please head over to the [**Excel reference**](reference/excel.md).
+This section explains **how to start using Statit with Excel**. For the complete documentation covering Excel, please head over to the [**Excel reference**](/reference/excel.md).
 
 Before continuing, **please sign-in to your account [here](https://gostatit.com/signin)** or **create one [here](https://gostatit.com/signup)**.
 
@@ -83,6 +83,6 @@ To achieve this:
 
 ## **Next steps**
 
-You have learnt the basics of accessing one or multiple metrics with the Statit Excel add-in. If you would like to go further, please follow the full [Excel reference](reference/excel.md).
+You have learnt the basics of accessing one or multiple metrics with the Statit Excel add-in. If you would like to go further, please follow the full [Excel reference](/reference/excel.md).
 
-You might as well develop your own Excel add-ins using Macros or Javascript. If you would like to achieve this, see the Statit API [here](gs_api.md).
+You might as well develop your own Excel add-ins using Macros or Javascript. If you would like to achieve this, see the Statit API [here](/gs/api_rest.md).

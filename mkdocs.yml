@@ -1,11 +1,14 @@
 site_name: User Guide
 nav:
+    - Welcome: index.md
     - What is Statit?: what_is.md
     - 'Getting started':
       - Web: gs/web.md
       - Excel: gs/excel.md
       - REST API: gs/api_rest.md
     - Reference:
+      - Web: reference/web.md
+      - Excel: reference/excel.md
       - REST API: reference/api_rest.md
 theme:
   name: material

@@ -2,9 +2,9 @@
 
 Statit can be used fully with a REST API.
 
-Make sure you have read [**getting started with Statit on the web**](gs/web.md) to understand the basics of how Statit works.
+Make sure you have read [**getting started with Statit on the web**](/gs/web.md) to understand the basics of how Statit works.
 
-This section explains **how to start using Statit with the REST API**. For the complete documentation covering the REST API, please head over to the [**REST API reference**](reference/api_rest.md).
+This section explains **how to start using Statit with the REST API**. For the complete documentation covering the REST API, please head over to the [**REST API reference**](/reference/api_rest.md).
 
 
 ## **Set-up and basic concepts**
@@ -86,7 +86,7 @@ curl -X POST \
 
 In the request above, we call the 'getSerie' action to get a single metric and pass a parameter called input with the 'id' of the metric we are requiring.
 
-If you would like to learn the basics about metric identifiers, please head over to [Getting started on the web](gs_web.md).
+If you would like to learn the basics about metric identifiers, please head over to [Getting started on the web](/gs/web.md).
 
 
 ### Errors
@@ -224,4 +224,4 @@ curl -X POST \
 
 ### **Next steps**
 
-You have now learnt about the basics of the REST API to access metrics. To learn more, head over to the full [REST API reference](reference/api_rest.md)
+You have now learnt about the basics of the REST API to access metrics. To learn more, head over to the full [REST API reference](/reference/api_rest.md)
