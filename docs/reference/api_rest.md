@@ -18,7 +18,7 @@ The REST API reference covers **core Statit API functions**:
 **Managing series**:
 
 - [putSerie](#putserie)
-- [batchPuSerie](#batchputserie)
+- [batchPutSerie](#batchputserie)
 - [getSerie](#getserie)
 - [listSeries](#listseries)
 - [deleteSerie](#deleteserie)

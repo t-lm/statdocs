@@ -1,24 +1,30 @@
-# Statit on Microsoft Excel
+# **Get Started with Microsoft Excel**
 
-This page explains how to access, create and edit time series in Microsoft Excel using the Statit Excel add-in.
+Statit can be used to access and edit metrics in Excel.
 
-The Statit Excel "add-in" will allow you to perform basic operations. If you want to go further, you can develop your own add-ins and use the [Statit API](gs_api.md).
+This section explains **how to start using Statit with Excel**. For the complete documentation covering Excel, please head over to the [**Excel reference**](reference/excel.md).
 
-
-## Installation
-
-In an Excel workbook, go to the "Insertion" tab inside the workbook. Look for "Add-Ins" or "Download Add-ins".
-
-On Microsoft Add-in store, search for 'statit'. Press add to install the Statit add-in.
-
-The add-in will show as an icon on the right in the main menu. Good job.
+Before continuing, **please sign-in to your account [here](https://gostatit.com/signin)** or **create one [here](https://gostatit.com/signup)**.
 
 
-## Signin-in
+## **Installation**
+
+To use Statit in Microsoft Excel, you will **use the Statit add-in**.
+
+You might need a recent version of Microsoft Excel and specific access rights to install the Statit add-in. Please consult your IT support if your installation fails.
+
+In a Microsoft Excel workbook, go to the "Insertion" tab inside the workbook on the top of the workbook. Select 'Add-In', then 'Download Add-In', then 'Store'.
+
+In Microsoft Add-in store, search for 'statit'. Once found, press 'add' to install the Statit add-in inside Microsoft Excel.
+
+The Statit add-in will show as an icon on the right hand side of the the main menu. Great job!
+
+
+## **Signin-in**
 
 - Once the add-in opens, click on the "Sign in" tab
 - Enter your username
-- Enter your API key (you will find this in your web account in the home tab)
+- Enter your key (You will your 'key' by clicking on your username on the top right hand side of a Statit window on the web and selecting 'My account'. The key is a the bottom of the page)
 
 
 ## Get series
@@ -41,12 +47,6 @@ If there is an error, look at these possible solutions:
 - Fill-in your username and password
 - Check the 'id' is correct by finding it on the web application
 - Make sure you are online
-
-#### Get a specific version
-
-You can get the specific version of a serie by including the 'key' of the version behind the serie id separated with a ':'.
-You will find the existing versions in the serie page (click on the 'Version' link below the serie 'path')
-Versions are only available when getting a single time serie
 
 
 ### Get multiple time series
