@@ -1,64 +1,42 @@
 # **What is Statit?**
 
-Statit is a **tool for teams to manage time series collaboratively**.
-
-**Time series are great data structures** that support a range of **analytical use cases** such as economic research, strategic planning, environmental monitoring or performance reporting.
-
-Time series are used in **education, academic research, government and in the business world**.
+**Statit helps teams share and access metrics simply**.
 
 
-## What's the problem
+## **Metrics are difficult to access**
 
-In many cases, **analytical work is performed as part of a team**:
+Whether it is monitoring a project, planning business activity or researching social and demographic trends, **metrics are the core element of planning and analysis**.
 
-- **Developing collaborative time-serie intelligence** on a specific subject (physical market prices)
-- **Planning business operations** using a set of common assumptions from sales, supply and finances
-- **Monitoring activity across various organisations**
+The problem is **is is often complex to access metrics** as metrics are **stored in various places** (applications, dashboards, reports, analyst team) or **complex to get** (through queries).
 
-In the examples above, the team will at one point **need to share time series** inputs (case 1 and 2) or outputs (case 2 and 3).
-
-But **how to share time series**? The best way is to **put time series in a shared central space** and let collaborators edit and access time series according to their needs.
-
-Think Google docs or Dropbox for time series. But these do not work with time series. Neither does Excel. And setting-up a database is tricky and is just the beginning of a solution.
+**There is no single place where everyone can simply access them** - in 2-3 clicks and across subjects and teams.
 
 
-## The solution
+## **A space for metrics**
 
-Teams need an **out of the box collaborative registry for storing and accessing time series**.
+Statit is an online space where teams store and access metrics.
 
-**Here come Statit**
+Statit has three main characteristics:
 
-Statit provides a **managed collaborative registry** with four main advantages:
-
-- **Securing time-serie assets** - All time series are stored in one place in the cloud with back-up and all revisions stored.
-- **Enabling collaboration** - Teams collaborate around collections of series. Individual analysts can edit, review, access series according to the permissions provided by the collection administrator
-- **Improving time-serie management efficiency** - By placing time series as shared ressources, teams collaborate much more efficiently, avoiding duplicate work and improving the quality of input and output
-- **Accelerating analytical workflows** - With time series in a modern registry, analytical workflows can be  automated and scaled-up significantly.
+- **Accessible to all** - **Really!** - It is simple to navigate across metrics and access them - by anyone in the team, there is no barrier to metrics knowledge
+- **Accessible in the tools you use today** - Whether it is a web browser, Microsoft Excel or a programming language (curl/ nodejs/ python), metrics can be accessed and edited - No need to adopt a new tool
+- **Very simple to get started** - Start publishing and sharing metrics in minutes
 
 
-## Public or private
+## **Organised for teams**
 
-Collections of time series on Statit are either public or private.
+Teams build **workspaces to share their metrics**.
 
-Public collections of time series are visible to all and anyone can consume time series. Some of these public collections might be looking for collaborators to develop and maintain the series. In this case, users can contact the administrator to take part.
+Inside workspaces, metrics are organised inside collections. Each collection can be public - accessible by all members of the workspace - or private - only accessible by invited users.
 
-Private collections of time series are only accessible to a select number of collaborators. They are not hidden from the public world.
-
-
-
-## Getting started
-
-To understand how Statit works, head over to public collections such as [historical long-term patents declaration in OECD countries since the 17th century](https://gostatit.com/cdi/patents) or [search for one](https://gostatit.com/search)
-
-Explore the collection, explore time series and download time series. Save one of the serie for future reference in your subscriptions.
-
-Then, install the Excel add-in to access data directly in Excel. See the full doc [here](gs_excel.md)
-
-If you are interested in accessing the Statit through the API, head over [here](gs_api.md)
+Inside collections, members have specific roles. Some manage the collection and can invite users. Others can edit the metrics. Finally, others can only access the series.
 
 
-## Publishing
+## **Private or public spaces**
 
-Ready to get started and build your own collection? This feature is only available to select users for the moment.
+Some workspaces are "open" and can be joined by everyone on the Internet after sign-up. Open workspaces are useful to share open or collaborative datasets as metrics.
 
-Please reach-out to [hi@gostatit.com](mailto:hi@gostatit.com) for us to open it for you.
+
+## **Getting started**
+
+To understand how Statit works, create an account [here](https://gostatit.com/signup). If you would like to get started on the web, head over [here](gs_web.md), in Excel [there](gs_excel.md) or using the API, [over here](gs_api.md)

@@ -1,20 +1,13 @@
-# Welcome
+# **Welcome on Statit user guide**.
 
-Welcome on **Statit user guide**.  
+The **first section** explains [**what Statit is**](what_is.md).
 
-Here you should find the **main answers about what Statit is about and how to use it**.
+The **following sections** explain **how to get started with Statit**:
 
-The **first section** is an **introduction about Statit**
+* [On the web](gs_web.md)
+* [In Microsoft Excel](gs_excel.md)
+* [With the REST API ](gs_api.md)
 
-* [Learn the basics](what_is.md)
+Finally, you will find the full REST API reference [**here**](ref_api.md).
 
-The **following three sections** explain how to use Statit in various ways
-
-* [Working with Statit on the web](gs_web.md)
-* [Working with Statit on Microsoft Excel](gs_excel.md)
-* [Working with Statit with the API ](gs_api.md)
-* [API reference](ref_api.md)
-
-We are preparing tutorials to help you get started on simple workflows. Stay tuned.
-
-Please **get back to us with any comment** at [hi@gostatit.com](mailto:hi@gostatit.com).
+Do not hesitate to get back to us at [hi@gostatit.com](mailto:hi@gostatit.com)
