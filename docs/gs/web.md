@@ -4,7 +4,7 @@ Statit can be used fully in the browser.
 
 This section explains **how to start using Statit with a web browser**. For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](/reference/web.md).
 
-Before continuing, **please sign-in to your account [here](https://gostatit.com/signin)** or **create one [here](https://gostatit.com/signup)**.
+Before continuing, **please sign-in to your account or create one [here](https://gostatit.com/sign)**.
 
 
 ## **Workspaces**
