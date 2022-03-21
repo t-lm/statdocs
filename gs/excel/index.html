@@ -328,18 +328,6 @@
   
 
           
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../api_rest/" class="md-nav__link">
-        REST API
-      </a>
-    </li>
-  
-
-          
         </ul>
       </nav>
     </li>
@@ -527,7 +515,7 @@
 <p>Metrics on Statit are defined by a single 'id' or identifier.</p>
 <p>To access the metric:</p>
 <ul>
-<li>Insert the 'id' of a metric in any cell (for instance: xr/weekly/eur/chf)</li>
+<li>Insert the 'id' of a metric in any cell (for instance: xrate/weekly/eur/chf)</li>
 <li>Select the cell and press "Go"</li>
 </ul>
 <p>The metric is returned starting in the cell below. Next to the id, you will find the status of the query, the date of the query, the size of the query (number of metrics returned).</p>
@@ -542,18 +530,18 @@
 <p>You might need observations to be displayed horizontally.</p>
 <p>To achieve this:</p>
 <ul>
-<li>Replace the "id" of the metric by 'geth:' followed by the id</li>
+<li>In a single cell, add 'geth:' before the id</li>
 <li>Select the cell and press Go</li>
 </ul>
 <h2 id="get-multiple-metrics"><strong>Get multiple metrics</strong></h2>
 <p>To achieve this:</p>
 <ul>
-<li>Insert the ids of the metrics you are looking for separated with a "," (for instance: xr/weekly/eur/chf,xr/weekly/eur/gbp,xr/weekly/eur/idr)</li>
+<li>Insert the ids of the metrics you are looking for separated with a "," (for instance: xrate/weekly/eur/chf,xrate/weekly/eur/gbp,xrate/weekly/eur/idr)</li>
 <li>With the cell selected, press "Go"</li>
 </ul>
 <h2 id="list-all-metrics-with-a-specific-parent-id"><strong>List all metrics with a specific parent id</strong></h2>
 <ul>
-<li>Insert the parent id followed by "*", for instance: xr/weekly/eur*</li>
+<li>Insert the parent id followed by "*", for instance: xrate/weekly/eur*</li>
 <li>With the cell selected, press "Go"</li>
 </ul>
                 
@@ -591,13 +579,13 @@
       
       
         
-        <a href="../api_rest/" class="md-footer__link md-footer__link--next" aria-label="Next: REST API" rel="next">
+        <a href="../../reference/web/" class="md-footer__link md-footer__link--next" aria-label="Next: Web" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              REST API
+              Web
             </div>
           </div>
           <div class="md-footer__button md-icon">
