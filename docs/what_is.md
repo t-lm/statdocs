@@ -1,22 +1,22 @@
-# **What is Statit?**
+# What is Statit?
 
-**Statit helps teams share and access metrics simply**.
+**Statit helps teams and communities manage and access metrics simply**.
 
 
-## **Metrics are difficult to access**
+## **Metrics are difficult to manage and access**
 
-Whether it is monitoring a project, planning business activity or researching social and demographic trends, **metrics are the core element of planning and analysis**.
+Whether it is monitoring environmental indicators, planning investment or researching economic trends, **metrics are critical bits of information to understand a situation and take actions**.
 
-The problem is **it is often complex to access metrics for everyday users** as metrics are **stored in various places** (applications, dashboards, reports, analyst team) or **complex to get**.
+The problem is **there is no simple way to manage metrics today**. Metrics are often **stored in various places** (applications, dashboards, reports, analyst team) and **complex to understand**.
 
-Like books in medieval times, metrics are only accessible to the most advanced analytical users - preventing most collaborators to take part independently in planning and analysis
+Like books in medieval times, **metrics are only accessible to the most advanced analytical users** - preventing most collaborators to take part independently analysis.
 
 
 ## **A library of metrics**
 
-Statit turns things around and provides an online space where teams store and access metrics. It has three main characteristics:
+Statit turns things around and provides an online space where teams manage and access metrics. It has three main characteristics:
 
-- **Accessible to all** - **Really!** - It is simple to navigate across metrics and access them - by anyone in the team, there is no barrier to metrics knowledge
+- **Accessible to all** - It is simple to navigate across metrics and access them - by anyone in the team, there is no barrier to metrics knowledge
 - **Accessible in the tools you use today** - Whether it is a web browser, Microsoft Excel or a programming language (curl/ nodejs/ python), metrics can be accessed and edited - No need to adopt a new tool
 - **Very simple to get started** - Start publishing and sharing metrics in minutes
 
@@ -37,4 +37,4 @@ Some workspaces are "public" and can be joined by everyone on the Internet after
 
 ## **Getting started**
 
-To understand how Statit works, create an account [here](https://gostatit.com/signup). If you would like to get started on the web, head over [here](gs/web.md), in Excel [there](gs/excel.md) or using the API, [over here](gs/api_rest.md)
+To understand how Statit works, sign-in or create an account [here](https://gostatit.com/sign). If you would like to get started on the web, head over [here](gs/web.md) or in Excel [there](gs/excel.md).

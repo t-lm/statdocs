@@ -1,6 +1,14 @@
 site_name: User Guide
 nav:
     - Welcome: index.md
+    - What is Statit?: what_is.md
+    - 'Getting started':
+      - Web: gs/web.md
+      - Excel: gs/excel.md
+    - Reference:
+      - Web: reference/web.md
+      - Excel: reference/excel.md
+      - REST API: reference/api_rest.md
 theme:
   name: material
   palette:
@@ -9,12 +17,6 @@ theme:
     accent: orange
   logo: img/logo_statit_64.png
   favicon: img/favicon.ico
-  features:
-    #- navigation.tabs
-    - navigation.indexes
-    - navigation.sections
-    - navigation.instant
-    - navigation.tracking
 extra:
   alternate:
     - name: English
@@ -23,7 +25,7 @@ extra:
     - name: Français
       link: /fr/
       lang: fr
-  generator: false #this should remove the Made with Material at the bottom - not working
-  homepage: https://gostatit.com
+
+
 extra_css:
   - stylesheets/extra.css

@@ -1,4 +1,4 @@
-# **REST API Reference**
+# REST API Reference
 *API version: 1.0.1*
 
 The REST API reference covers **core Statit API functions**:

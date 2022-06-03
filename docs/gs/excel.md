@@ -1,4 +1,4 @@
-# **Get Started with Microsoft Excel**
+# Get Started with Microsoft Excel
 
 Statit can be used to access and edit metrics in Excel.
 
@@ -42,7 +42,7 @@ Metrics on Statit are defined by a single 'id' or identifier.
 
 To access the metric:
 
-- Insert the 'id' of a metric in any cell (for instance: xr/weekly/eur/chf)
+- Insert the 'id' of a metric in any cell (for instance: xrate/weekly/eur/chf)
 - Select the cell and press "Go"
 
 The metric is returned starting in the cell below. Next to the id, you will find the status of the query, the date of the query, the size of the query (number of metrics returned).
@@ -61,7 +61,7 @@ You might need observations to be displayed horizontally.
 
 To achieve this:
 
-- Replace the "id" of the metric by 'geth:' followed by the id
+- In a single cell, add 'geth:' before the id
 - Select the cell and press Go
 
 
@@ -69,12 +69,12 @@ To achieve this:
 
 To achieve this:
 
-- Insert the ids of the metrics you are looking for separated with a "," (for instance: xr/weekly/eur/chf,xr/weekly/eur/gbp,xr/weekly/eur/idr)
+- Insert the ids of the metrics you are looking for separated with a "," (for instance: xrate/weekly/eur/chf,xrate/weekly/eur/gbp,xrate/weekly/eur/idr)
 - With the cell selected, press "Go"
 
 
 ## **List all metrics with a specific parent id**
 
 
-- Insert the parent id followed by "\*", for instance: xr/weekly/eur\*
+- Insert the parent id followed by "\*", for instance: xrate/weekly/eur\*
 - With the cell selected, press "Go"

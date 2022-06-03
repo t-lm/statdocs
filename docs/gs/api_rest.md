@@ -1,4 +1,4 @@
-# **Get Started with the REST API**
+# Get Started with the REST API
 
 Statit can be used fully with a REST API.
 
@@ -69,7 +69,7 @@ You will do this by adding a json object to the query specifying the action call
 
 curl -X POST \
     -H "Content-Type: application/json" \
-    -d '{"action": "getSerie", "input": {"id": "xr/weekly/eur/chf"}}' \
+    -d '{"action": "getSerie", "input": {"id": "xrate/weekly/eur/chf"}}' \
     -u username:apikey \
     https://api.gostatit.com/core
 
@@ -126,7 +126,7 @@ We have already explored this in the example above.
 
 curl -X POST \
     -H "Content-Type: application/json" \
-    -d '{"action": "getSerie", "input": {"id": "xr/weekly/eur/chf"}}' \
+    -d '{"action": "getSerie", "input": {"id": "xrate/weekly/eur/chf"}}' \
     -u username:apikey \
     https://api.gostatit.com/core
 
@@ -170,7 +170,7 @@ The Item object is quite explicit. It contains both metric metadata and data. No
 
 The API let you request "children" metrics with a single parent.
 
-As an example, if you are looking to get all weekly euro exchange rates, you will call [xr/weekly/eur](https://gostatit.com/xr/weekly/eur) and the request will return all related metrics.
+As an example, if you are looking to get all weekly euro exchange rates, you will call [xrate/weekly/eur](https://gostatit.com/xrate/weekly/eur) and the request will return all related metrics.
 
 It is necessary to specify exactly the id of the parent. The size of the response is limited to 1MB.
 
@@ -182,7 +182,7 @@ It is necessary to specify exactly the id of the parent. The size of the respons
 
 curl -X POST \
     -H "Content-Type: application/json" \
-    -d '{"action": "listSeries", "input": {"id": "xr/weekly/eur"}}' \
+    -d '{"action": "listSeries", "input": {"id": "xrate/weekly/eur"}}' \
     -u username:apikey \
     https://api.gostatit.com/core
 
