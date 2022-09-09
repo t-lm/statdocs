@@ -1,63 +1,61 @@
-# Favoris et alertes
+# Favourites and alerts
 
-Statit permet à tout le monde de suivre et retrouver les indicateurs ou graphiques importants facilement.
+Statit allows you to record and follow the series you need easily.
 
-## Suivre une collection
+## Following a collection
 
-Pour commencer, nous allons suivre une collection.
+To get started, we are going to follow a collection.
 
-Rendez-vous dans la collection [Pink sheet de la Banque Mondiale](https://www.gostatit.com/world-bank/pink). C'est une collection publique qui permet de suivre les tendances des prix mondiaux des matières premières tous les mois.
+Head to the [Pink sheet](https://www.gostatit.com/world-bank/pink) collection from the World Bank. This is a public collection redistributing international commodity prices compiled by the World Bank.
 
-En haut à droite, vous pouvez voir un bouton "Suivre". Cliquez dessus, trois choix apparaissent:
+On the top right of the page, you can see the 🖤 icon. Three options are possible:
 
-- Pas d'alerte - vous ne recevrez pas d'alerte lorsque la collection sera mise à jour
-- Alerte à la mise à jour - vous recevrez une alerte par email dès que la collection sera mise à jour
-- Alerte une fois par semaine - vous recevrez une alerte par email une fois par semaine le Jeudi si la collection a été mise à jour lors de la semaine précédente
+- No alert - you will not receive an alert for this collection
+- Alert on update - vous will receive an alert by email as soon as the collection is updated
+- Alert once a week - you will receive an alert once a week on Thursday if the collection has been updated the previous week
 
 ![Collection favori](/img/user-fr_favs_favs-alerts_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cliquez sur "Pas d'alerte". Voilà vous suivez désormais la collection. Pas d'inquiétude, vous pourrez vous désabonner facilement après.
+Click on one of the options. You are now following the collection.
 
 
-## Suivre un indicateur
+## Following a serie
 
-Nous allons maintenant suivre un indicateur.
+Go now on [international orange prices](https://www.gostatit.com/world-bank/pink/prices/agri/orange/eur) by the World Bank.
 
-Rendez-vous sur les [prix mondiaux des oranges en Euro/ Kilo](https://www.gostatit.com/world-bank/pink/prices/agri/orange/eur) selon la Banque Mondiale.
+On the top right, you will find the 🖤 icon. There are two more lines:
 
-En haut à droite, vous retrouvez le menu "Suivre" comme pour la collection. Il y a deux lignes en plus.
+- The first one is "Alerte on update (with threshold)". This allows you to set an additional alert criteria. You will be alerted only if the last value of the serie meets the criteria you set.
 
-La première est "Alerte avec seuil". Cela vous permet de définir un critère d'alerte supplémentaire. Vous ne serez alertés que si la dernière valeur de l'indicateur est supérieure ou inférieure au nombre que vous définissez.
+- The second is "Add to a personal dashboard". We will cover this in the next section.
 
-La second est "Ajouter à un tableau personnel". Nous y reviendrons dans la prochaine section.
-
-Cliquez sur "Alerte à la mise à jour". Nous modifierons cela un petit peu plus tard.
+Click on "Alert on update". We will change this a bit later.
 
 
-## Visualiser et modifier les favoris
+## Access and change favorites
 
-Vous avez maintenant créé deux favoris.
+You have now created two favourites.
 
-Retournons sur la page d'accueil de votre compte pour les visualiser. Allez dans le menu en haut à droite de l'écran avec nom d'utilisateur et cliquez sur "Accueil".
+You need to go back to your home page to access them. Click on your username on the top right and choose "Home".
 
-Cliquez ensuite sur "Favoris". La collection et l'indicateur que vous avez enregistrés sont là.
+Click then on "Favorites". Your collection and serie favorites are here.
 
 ![Favoris](/img/user-fr_favs_favs-alerts_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Si vous souhaitez mettre à jour l'alerte ou la supprimer, vous pouvez cliquer sur la flèche à droite de chaque favori.
+If you want to update the alert or remove it, click on the toggle on the right of each favorite.
 
 
-## Suivre un tableau de bord
+## Following a dashboard
 
-Finalement, il est possible de suivre des tableaux de bord.
+Finally, it is possible to follow a dashboard.
 
-Rendez-vous sur [le tableau des indices de prix mondiaux des matières premières](https://www.gostatit.com/i/world-bank/pink/summary) selon la Banque Mondiale.
+Go to the [dashboard with commodity price indices](https://www.gostatit.com/i/world-bank/pink/summary) from the World Bank.
 
-En haut à droite, vous pouvez cliquer sur "Suivre" de la même manière que les collections et les indicateurs.
+On the top right, you can click on the 🖤 icon in the same way as with collections and series.
 
 
-## Prochaines étapes
+## Next steps
 
-Vous avez vu comment créer des favoris sur les collections, les indicateurs et les tableaux de bords existants.
+You have seen how to create favourites on existing collections, series and dashboards.
 
-Pour voir comment créer vos propres graphiques et tableaux de bord pour suivre ce qui vous intéresse de manière encore plus efficace, c'est [ici](dashboards.md)
+To see how to create your own charts and dashboards to monitor exactly what you are interested in, head over [here](dashboards.md)

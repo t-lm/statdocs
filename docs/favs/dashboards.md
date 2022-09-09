@@ -1,92 +1,96 @@
-# Tableaux de bord
+# Dashboard
 
-Pour pouvoir suivre encore plus facilement les indicateurs ou graphiques qui vous intéressent, Statit vous permet de les rassembler dans votre propre tableau de bord.
+To monitor even more closely the series you are interested in, Statit allows you to pull them together in a dashboard.
 
-Un tableau de bord est comme une "liste de lecture" sur un service musical. C'est un ensemble d'indicateurs et graphiques qui vous sont propres et que vous pourrez retrouver facilement.
+## Creating the dashboard
 
-## Créer le tableau de bord
+To start, we are going to create the dashboard.
 
-Pour commencer, nous allons créer un tableau de bord.
+Our objective is to create a dashboard to monitor various energy prices internationally.
 
-Notre objectif est de créer un tableau de bord pour suivre différents prix de l'énergie au niveau mondial.
+Go on the home page of your account by clicking on "Home" in the menu on the top right of the page.
 
-Rendez-vous sur la page d'accueil de votre compte, par exemple en cliquant sur "Accueil" en haut à droite de l'écran sur votre nom d'utilisateur.
+Click on the "Dashboard" tab, then on the button "Create a dashboard" just under.
 
-Cliquez ensuite sur l'onglet "Tableau", puis sur le bouton "Créer un tableau" juste en dessous.
-
-Vous retrouver l'écran suivant. Vous allez donner un identifiant et un nom à votre nouveau tableau.
+You are reaching the following screen. You are now going to give an identifier and a name to your dashboard.
 
 ![Créer un tableau](/img/user-fr_favs_dashboards_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Ici nous avons utilisé "prix-energie" comme identifiant et "Prix de l'énergie" comme nom. Vous pouvez utiliser les identifiants et noms qui vous conviennent.
+Here we have used "prix-energie" as an identifier and "Prix de l'énergie" as a name. You can use the identifiers and names you like.
 
-Cliquez sur "Enregistrer"
+Click on "Save"
 
-## Ajouter des graphiques
+## Adding charts
 
-Rendons-nous d'abord sur un graphique qui donne les tendances des prix moyens de l'électricité en Europe.
+### First chart
 
-Ce graphique appartient à un tableau de bord public dans l'espace de l'association des gestionnaires de réseau électricité au niveau européen. C'est [ici](https://www.gostatit.com/i/entsoe/da_prices/overview).
+Let's visit first a chart that provides average daily electricity prices across Europe.
 
-En haut à droite du graphique, cliquez sur les trois points. Vous voyez indiqué "Ajouter à un tableau personnel". Cliquez dessus.
+This chart is part of an account with data from the association of electricity network operators in Europe. It is [here](https://www.gostatit.com/i/entsoe/da_prices/overview).
+
+On the top right of the chart with the series, click on the three dots icon. Select "Add to a personal dashboard".
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Un écran vous demande maintenant dans quel tableau de bord il faut ajouter le graphique. Sélectionnez le tableau que vous avez créé avant: "Prix de l'énergie"
+You are now being asked in which dashboard to add the chart. Select the one you have just created.
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cliquez sur "Enregistrer"
+Click on "Save"
 
+### Second chart
 
-Ajoutons maintenant un deuxième graphique sur les prix des contrats pétroliers "futures". Allez sur ce [tableau de bord sur l'espace de l'EIA](https://www.gostatit.com/i/eia/petroleum_prices_futures/overview). Descendez sur le deuxième graphique en Euro.
+Let's add now a second chart with oil "futures". Go to this [EIA dashboard](https://www.gostatit.com/i/eia/petroleum_prices_futures/overview). Pick the chart with the series.
 
-Répétez la même manoeuvre que sur le graphique précédent pour l'ajouter à votre tableau de bord.
+Repeat the same steps to add this chart to your dashboard.
 
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 
-## Ajouter des indicateurs
+## Adding series
 
-Nous venons d'ajouter des graphiques à notre tableau de bord.
+We have added two charts to our dashboard.
 
-Nous allons maintenant ajouter un indicateur directement. Allez par exemple voir l'[indicateur de prix du gaz](https://www.gostatit.com/grtgaz/price/fr-trf/eur) publié par l'opérateur de réseau français GRTGaz.
+We are now going to add a serie. You can for instance visit [French gaz prices](https://www.gostatit.com/grtgaz/price/fr-trf/daily/eur)
+ published by the French network operator.
 
-En haut à droite, cliquez sur "Suivre". Et en bas du menu, cliquez sur "Ajouter à un tableau personnel". Et ajouter l'indicateur à votre tableau de bord.
+On the top right, click on the heart and add to a personal dashboard. Select the dashboard, the 'Line chart' format and save.
 
 
-## Modifier les graphiques
+## Changing charts
 
-Après avoir ajouté l'indicateur, vous êtes redirigés sur votre tableau de bord avec les trois graphiques que vous avez sélectionnés.
+After adding the serie, you are redirected to your dashboard with the three charts above.
 
-Nous allons modifier le dernier graphique ajouté pour le faire démarrer en 2022. Cliquez en haut à droite du graphique sur les trois points, puis sur "Modifier le graphique".
+We are going to change the last serie we have added to make it start in 2022. Click on the top right of the chart on "Update chart".
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Dans le champ "Nom", changez le nom pour "Natural Gas Prices - Daily - EUR/ MWh". Ensuite, dans la partie grisée des indicateurs, cliquez sur la flèche à droite sur "Modifier".
+In the field "Name", write 'Natural Gas Prices - Daily - EUR/ MWh'. Then, on the section below with series, click on the toggle fully on the right and choose 'Update'.
 
-Dans la cellule "Debut", écrivez "2022-01-01" pour démarrer au 1er Janvier 2022. Cette notation avec dans l'ordre, l'année, le mois sur 2 chiffres et le jour sur 2 chiffres est la norme ISO que nous utilisons sur Statit.
+In the "Start" cell, write "2022-01-01" to start on the 1st of January 2022. We use this way of writing dates with year, month and days  separated with dashes on Statit.
 
-Dans la zone "Couleur", choisissez la couleur qui vous plait.
+In the "Colour" section, pick a different color.
 
-Cliquez sur Enregistrer. Votre graphique apparaît sur le tableau de bord.
-
-
-## Le tableau de bord
-
-Nous avons fait tout cela pour créer un tableau de bord personnel qui contient tous les graphiques qui nous intéressent.
-
-Vous retrouvez ce tableau de bord dans votre "Accueil" sur l'onglet "Tableau". Vous pouvez maintenant créer des tableaux en utilisant les espaces de travail publics et les espaces privés dont vous faites partie.
-
-Si vous souhaitez supprimer ce tableau de bord, commencez par supprimer chaque graphique (en cliquant en haut à droite du graphique sur "Supprimer") puis supprimez le tableau.
+Click on 'Save'. Votre graphique apparaît sur le tableau de bord.
 
 
-## Prochaines étapes
+## The dashboard
 
-Vous avez maintenant appris à créer vos propres tableaux et graphiques.
+We have done all this to create a dashboard that contains key charts we are interested in.
 
-Si vous cherchez à accéder aux indicateurs directement dans Excel, rendez-vous dans le [guide de démarrage](/excel/index.md)
+You will find this dashboard in your "Home" on the "Dashboard" tab. The dashboard will always be up to date with the latest values.
 
-Si vous cherchez à partager des indicateurs, rendez-vous dans le [guide de partage](/excel/index.md)
+You can now create dashboards with series from public accounts and private account where you are a member.
+
+If you want to remove the dashboard, start by removing each chart (top right of the chart) and then remove the dashboard.
+
+
+## Next steps
+
+You have now learnt to build your own dashboards and charts.
+
+If you are interested to access series directly in Excel, head over [here](/excel/index.md)
+
+If you would like to publish series, head to the [publisher guide](http://helppub_en.gostatit.com/)

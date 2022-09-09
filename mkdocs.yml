@@ -2,15 +2,15 @@ site_name: User guide
 nav:
     - Welcome: index.md
     - Getting started:
-      - Metrics: gs/index.md
+      - Series: gs/index.md
       - Collections: gs/collections.md
       - Charts: gs/charts.md
-      - Workspaces: gs/workspaces.md
-    - Favorites & dashboards:
+      - Accounts: gs/accounts.md
+    - Following series:
       - User account: favs/index.md
-      - Favorites & alerts: favs/favs-alerts.md
+      - Favourites & alerts: favs/favs-alerts.md
       - Dashboards: favs/dashboards.md
-    - Excel:
+    - Using Excel:
       - Installing the Excel add-in: excel/index.md
       - Accessing metrics: excel/access.md
 theme:

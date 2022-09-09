@@ -1,33 +1,35 @@
-# Les tableaux et graphiques
+# Charts
 
-Les collections contiennent également des tableaux et des graphiques.
+Certain collections can contain charts.
 
-Les tableaux, pour tableaux de bord, rassemblent plusieurs graphiques au même endroit.
+Charts are a very useful way to present series in certain cases. They are organised inside dashboards.
 
-Retournez sur la page d'accueil de la collection [xrate/daily](https://www.gostatit.com/xrate/daily) et cliquez sur l'onglet [GRAPHIQUES](https://www.gostatit.com/xrate/daily?tab=charts).
+Go back on the collection's landing page [xrate/daily](https://www.gostatit.com/xrate/daily) and click on the tab [CHARTS](https://www.gostatit.com/xrate/daily?tab=charts).
 
-Vous verrez plusieurs tableaux de bord qui s'affichent: americas, asia-pac et emea. Ce sont les noms de tableaux régionaux qui rassemblent plusieurs taux de change de pays de ces régions.
+Three dashboards appear: americas, asia-pac et emea. Click on [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
 
-Cliquez sur le tableau [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
+## The dashboard
 
-## Le tableau
+The dashboard starts with a text followed by multiple charts.
 
-Le tableau est composé d'un résumé au début et de plusieurs graphiques dans l'ordre. Sur ce tableau, vous verrez un résumé des principales tendances sur les taux de change de la zone Asie et les principaux graphiques de la zone.
+ On this dashboard, you will see a summary of Asian currencies exchange rates evolutions against the Euro and most exchange rate charts.
 
 ![xrate/daily](/img/user-fr_gs_charts_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Ce tableau de bord et mis à jour quotidiennement par Statit.
+This dashboard is updated daily by Statit.
 
 
-## Le graphique
+## The chart
 
-En haut à droite, vous pouvez cliquer sur les trois points pour télécharger le graphique (image ou données). Vous aurez besoin de créer un compte pour faire cela.
+On the top right of each chart, you can click on the 'three dots' icon to download the chart (image or data). You will need to have an account for that ([here](https://www.gostatit.com/sign)).
 
-En bas du graphique, vous pouvez cliquer sur "Sources". Cela vous présentera les indicateurs utilisés pour construire le graphique
+At the bottom of the chart, you can click on "Sources" to visualise the series used to build the chart. You can click on each serie to see the original data.
+
+Finally, you can add this chart to a "personal" dashboard. We will cover this in the next section.
 
 
-## Prochaines étapes
+## Next steps
 
-Bravo, vous avez visualisé un indicateur et un tableau de bord au sein de l'espace public [xrate](https://www.gostatit.com/xrate) et de la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
+Nice, you have accessed a dashboard and a chart in the  [xrate/daily](https://www.gostatit.com/xrate/daily) collection.
 
-Nous allons maintenant vous expliquer ce que c'est qu'un [espace de travail](/gs/workspaces.md).
+We will now explain what an [account](/gs/accounts.md) is.

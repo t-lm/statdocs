@@ -1,51 +1,59 @@
-# Compte utilisateur
+# Account
 
-Si vous avez déjà un compte, vous pouvez directement passer à la section [Favoris et Alertes](/favs-alerts.md). Sinon, pour créer un compte, suivez les indications ci-dessous.
+If you already have an account, you can already go to the [Favorites and Alerts](/favs-alerts.md) section.
 
-## Pourquoi un compte
+Otherwise, to create an account, follow the instructions below.
 
-Statit permet à tout le monde de suivre facilement les indicateurs qui sont importants pour eux.
+## Creating the account
 
-Un compte va vous permettre d'enregistrer vos indicateurs et graphiques favoris pour les retrouver plus facilement. Un compte va également vous permettre de créer ou d'accéder à des espaces de travail privé.
-
-## Création du compte
-
-Rendez-vous sur la [page d'inscription](https://www.gostatit.com/sign), entrez votre mail et cliquez sur 'Suivant'.
+Go on the [sign-up page](https://www.gostatit.com/sign), enter your email and click on 'Next'.
 
 ![Inscription](/img/user-fr_favs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Sur l'écran suivant, nous vous demandons un nom d'utilisateur et un mot de passe:
+On the next screen, we will ask you the type of account, a username and a password.
 
-- Votre nom d'utilisateur pourra être utilisé par vos collaborateurs sur Statit. S'il vous plait, n'utilisez que des chiffres, des lettres et les tirets (-,_).
-- Le mot de passe doit faire plus de 8 caractères
+There are two types of accounts:
+
+- The 'User' accounts allow you to access public and private series
+- The 'Publisher' accounts allow you to publish series and share them with collaborators
+
+You can start with a 'User' account and later transform it into a 'Publisher' account. For this tutorial, choose a 'User' account.
+
+The username will represent the account.  If the account is meant to be a 'User' account, pick a username that represents you individually. If the account is meant to be a 'Publisher' account used by others, pick a username that represents the group.
+
+Please, only use letters, numbers, dash and underscore (-,_).
 
 ![Inscription](/img/user-fr_favs_index_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cliquez sur 'Suivant'. Votre compte va être créé.
+Click on 'Next'. Your account is going to be created.
 
-## Page d'accueil
+## Home page
 
-Lorsque vous vous connecté, vous arrivez sur une page d'accueil avec trois onglets:
+After signing-up, you arrive on the home page with three tabs:
 
-- "Accueil" vous fournit les premiers liens pour démarrer
-- "Favoris" est là vous retrouverez l'ensemble des indicateurs et graphiques que vous aurez enregistré
-- "Tableaux" est l'endroit où vous allez pouvoir créer vos propres graphiques et tableaux de bord
+- Home - welcome page
+- Favorites - personal favorites and alerts créés
+- Dashboards - tableaux personnels
 
 ![Inscription](/img/user-fr_favs_index_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Nous reviendrons sur les "Favoris" et les "Tableaux" dans les deux prochaines sections.
 
+## Personal information
 
-## Information personnelles
+On the top right of the page, click on your username.
 
-En haut à droite de l'écran, cliquez sur votre nom d'utilisateur.
+The menu allows you to go back to the home page, to access the user guide and to configure your account ("My account").
 
-Un menu apparait, vous permettant, soit de revenir à cette page d'accueil ('Accueil'), soit de visualiser ce guide utilisateur, soit de configurer votre compte ("Mon compte").
+If you have been invited to another account by a collaborator, you will find a link in this menu.
 
-Si vous avez été invité à rejoindre un espace de travail par un collaborateur, vous pouvez retrouver un lien vers cet espace dans ce menu. Si vous ne faites pas partie d'espace de travail, il n'y a pas de lien supplémentaire.
-
-Cliquez sur "Mon compte". Sur cette page, vous retrouverez vos informations personnelles. Vous pouvez compléter votre nom, votre profil et ajouter une image de profil.
+Click on  "My account" for you personal information. You can complete your name, a description of your account and add a profile picture.
 
 ![Inscription](/img/user-fr_favs_index_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Vous pouvez également changer la langue du compte et supprimer votre compte si vous le souhaitez. Nous reviendrons sur les autres éléments dans les autres sections.
+You can as well change the default language for the account and delete your account.
+
+We will get back on the other sections later.
+
+## Next steps:
+
+In the next section, we are going to create [favorites and alerts](/favs/favs-alerts.md).

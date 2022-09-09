@@ -1,17 +1,17 @@
-# Bienvenue sur le guide utilisateur
+# Welcome
 
-Bonjour, bienvenue sur le **guide utilisateur** de Statit 😀.
+Hi, welcome on the **user guide**.
 
-Ce guide va vous permettre d'accéder aux indicateurs sur Statit et de comprendre comment cela marche. Si vous recherchez le guide pour publier des indicateurs, c'est [ici](http://helppub_fr.gostatit.com)
+Statit is a platform to share time series. This guide will explain some basics about the platform and how to access series.
 
-Le guide est organisé en **trois parties**:
+If you are familiar with all this and are looking to publish series, the guide is [here](http://helppub_en.gostatit.com)
 
-* [**Démarrer simplement**](gs/index.md) - comprendre comment Statit fonctionne et accéder aux indicateurs
-* [**Enregistrer ses indicateurs**](favs/index.md) - créer un compte et enregistrer les indicateurs pertinents pour soi
-* [**Utiliser Statit dans Excel**](excel/index.md) - réservé aux utilisateurs confirmés
+The guide is organised in **three parts**:
 
-**Bon courage dans la prise en main** 💪. Accéder à vos chiffres clés va devenir un **jeu d'enfant**.
+* [**Getting started**](gs/index.md) - understand how Statit works and access series
+* [**Following series**](favs/index.md) - create an account, save favourite series, create alerts
+* [**Use Excel**](excel/index.md) - access series directly in Excel
 
-N'hésitez pas à [**nous écrire**](mailto:hi@gostatit.com) pour toute question ou remarque.
+**Good luck**. Do not hesitate to [**get in touch**](mailto:hi@gostatit.com)  with any question.
 
-A bientôt ✌️
+Best ✌️

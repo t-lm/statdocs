@@ -1,72 +1,81 @@
-# Les collections
+# Collections
 
-Les indicateurs sont organisés dans des **collections**.
+Series are organised in **collections**.
 
-Les collections, c'est un petit peu comme dans une bibliothèque de livres, c'est un ensemble d'**indicateurs de même nature**, provenant d'une même source ou traitant du même sujet.
+Collections contain **similar series**, coming from a same source or covering the same subject.
 
-Voilà plusieurs liens vers des collections sur les taux de change internationaux:
+Collections have unique identifiers on Statit. We are going to explore the following three:
 
-- [Taux de change internationaux quotidiens](https://www.gostatit.com/xrate/daily)
-- [Taux de change internationaux hebdomadaires](https://www.gostatit.com/xrate/weekly)
-- [Taux de change internationaux mensuels](https://www.gostatit.com/xrate/monthly)
+- Daily international exchange rates: [xrate/daily](https://www.gostatit.com/xrate/daily)
+- Weekly rates: [xrate/weekly](https://www.gostatit.com/xrate/weekly)
+- Monthly rates: [xrate/monthly](https://www.gostatit.com/xrate/monthly)
 
-## Présentation de la collection
+## Presentation
 
-Regardons plus en détail la première collection en cliquant sur le premier lien.
+Click on the first link.
 
 ![Collection](/img/user-fr_gs_org_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Juste en dessous du nom de l'espace de travail en haut à gauche se trouve l'identifiant de la collection "xrate/daily". Il est utile et nous l'utiliserons toujours pour référencer la collection.
+On the top left, 'xrate' is the name of the account hosting the series.
 
-Cliquer sur cet identifiant en haut à gauche nous permettra toujours de naviguer au sein de l'espace de travail, des collections et plus tard des indicateurs.
+This account is 'public' and visible by everyone on the Internet. This is not the case for private accounts, only visible by their members.
 
-Un petit peu en dessous, vous trouverez le nom de la collection (ici "International daily exchange rates").
+A little below, you will find grey links [xrate](https://www.gostatit.com/xrate) / [daily](https://www.gostatit.com/xrate/daily). These links allow you to navigate  inside the collection.
 
-Passons sur les autres informations pour l'instant et concentrons-nous sur les onglets un peu en dessous.
-
-## Sections
-
-Une collection contient toujours trois ou quatre sections:
-
-- Description - là où est décrite la collection - son objectif, ce qu'elle contient, comment elle est organisée
-- Indicateurs - là où sont stockés les indicateurs - organisés comme des fichiers sur un ordinateur
-- Graphiques - c'est là que dans certaines collections vous pourrez trouver des graphiques et des tableaux de bord créés par l'auteur de la collection
-- Questions - un endroit pour échanger sur la collection
+Below, you will find the name of the collection (here "International daily exchange rates").
 
 
-## Trouver les indicateurs
+## Tabs
 
-Sur Statit, les indicateurs sont organisés comme des fichiers sur un ordinateur. Pour trouver l'indicateur qui vous intéresse, il faut donc naviguer comme sur un ordinateur en cliquant sur les répertoires (un seul clic).
+A collection contains three or four tabs:
 
-Cliquez sur l'onglet [Indicateurs](https://www.gostatit.com/xrate/daily?tab=metrics). Vous pouvez désormais voir:
+- Description - the objective of the collection, its content, its organisation, its sources ...
+- Series - the **series**
+- Charts - in certain collections, charts
+- Questions - a space to ask questions about the series
+
+
+## Series
+
+Series are organised like files on a computer.
+
+To find the serie you are interested in, you need to browse the directories by clicking on them (single click).
+
+Click on the tab [Series](https://www.gostatit.com/xrate/daily?tab=metrics).
 
 ![xrate/daily](/img/user-fr_gs_metrics_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Il y a trois répertoires contenant:
+You can see three directories:
 
-- eur - l'ensemble des taux de change internationaux par rapport à l'Euro
-- gbp - l'ensemble des taux de change internationaux par rapport à la Livre britannique (gbp correspond à Great British Pound)
-- usd - l'ensemble des taux de change internationaux par rapport au Dollar américain (usd correspond à United States Dollar)
+- eur - exchange rates against Euro
+- gbp - exchange rates against the Great British Pound (gbp)
+- usd - exchange rates against United States Dollar (usd)
 
-La logique de navigation dans la collection est en général expliquée dans la description de la collection.
+## Navigating down the collection
 
-Cliquez maintenant sur [eur](https://www.gostatit.com/xrate/daily/eur). Vous voyez apparaître une liste d'indicateurs avec un petit graphique à barres devant. Ce symbole représente les indicateurs. Vous y êtes presque.
+Click now on [eur](https://www.gostatit.com/xrate/daily/eur). You will see a list of series preceded by a bar chart icon. You are nearly there.
 
 ![xrate/daily/eur](/img/user-fr_gs_metrics_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Les indicateurs sont nommés avec des codes en trois lettres comme "aud" ou "brl". Ces identifiants s'appuient en fait sur une norme internationale utilisée pour les monnaies: la [norme ISO 4217](https://fr.wikipedia.org/wiki/ISO_4217):
+In this collection, series are named with 3 letters codes like "aud" or "brl". These codes use international for currencies: the [ISO 4217 norm](https://fr.wikipedia.org/wiki/ISO_4217):
 
-- "aud" est le dollar australien (Australian Dollad)
-- "brl" est le réal brésilien (Brazilian Real)...
+- "aud" is for Australian Dollar
+- "brl" is for Brazilian Real ...
 
-Cliquez sur [cny](https://www.gostatit.com/xrate/daily/eur/cny). C'est le Yuan chinois. Enfin, on y est, vous pouvez visualiser l'indicateur de taux de change entre l'Euro et le Yuan.
+Click on [cny](https://www.gostatit.com/xrate/daily/eur/cny) for the Chinese Yuan.
 
 ![xrate/daily](/img/user-fr_gs_metrics_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cette logique de navigation sera toujours la même dans l'ensemble des collections.
+This navigation logic, based on logical or explicit codes, will be used across all collections.
 
-## Prochaines étapes:
+## Navigating up
 
-Vous avez visité une collection. Vous pouvez en visiter d'autres en parcourant les [collections publiques](https://gostatit.com/public) disponibles aujourd'hui sur Statit.
+To move back upward in the collection, you can click on the grey links on the top part of the page.
 
-Sinon, les collections peuvent aussi contenir des **graphiques**. Nous allons vous présenter cela dans la [section suivante](/gs/charts).
+If you want to go back at the account level, click on [xrate](https://www.gostatit.com/xrate). If you want to go to the collection, click on [daily](https://www.gostatit.com/xrate/daily)
+
+## Next steps
+
+You have now visited a collection. You can visit some of the other [public collections](https://gostatit.com/public) on Statit.
+
+Certain collections contain as well **charts**. We will talk about that in the [next section](/gs/charts).
