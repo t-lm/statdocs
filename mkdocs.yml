@@ -2,17 +2,16 @@ site_name: User guide
 nav:
     - Welcome: index.md
     - Getting started:
-      - Series: gs/index.md
-      - Collections: gs/collections.md
-      - Charts: gs/charts.md
-      - Accounts: gs/accounts.md
+      - Accessing metrics: gs/index.md
+      - Visiting collections: gs/collections.md
+      - Viewing charts: gs/charts.md
+      - Creating an account: gs/account.md
     - Following series:
-      - User account: favs/index.md
-      - Favourites & alerts: favs/favs-alerts.md
-      - Dashboards: favs/dashboards.md
+      - Creating favourites & alerts: perso/index.md
+      - Creating dashboards: perso/dashboards.md
     - Using Excel:
       - Installing the Excel add-in: excel/index.md
-      - Accessing metrics: excel/access.md
+      - Accessing metrics in Excel: excel/access.md
 theme:
   name: material
   palette:
@@ -31,6 +30,9 @@ theme:
 extra:
   generator: false #this should remove the Made with Material at the bottom - not working
   homepage: https://gostatit.com
+  analytics:
+      provider: google
+      property: UA-163848470-1
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:

@@ -1,41 +1,43 @@
-# Accéder aux indicateurs
+# Accessing series
 
-Vous allez maintenant télécharger les indicateurs directement dans Excel.
+You are now ready to access series directly in Excel.
 
 
-## Charger un indicateur
+## Download a serie
 
-Pour charger un indicateur, inscrivez dans n’importe quelle cellule de votre fichier Excel l'identifiant d’un indicateur d'une collection publique.
+To download a single serie, write in any cell the identifier of a public collection.
 
-Vous pouvez prendre par exemple le code eustat/apro_mk_colm/de/raw_milk_delivered qui correspond à la production totale de lait en Allemagne.
+Take for instance the serie 'eustat/apro_mk_colm/de/raw_milk_delivered' that represents the volumes of milk delivered by farms in Germany.
 
-Avec la cellule active sur l'indicateur, cliquez sur "Go". Et voilà, après quelques secondes, l'indicateur est chargé en dessous de la cellule
+Select the cell with the serie and click on "Go". That is it. After a few seconds, la série est chargée en dessous de l'identifiant
 
 ![Installer complément](/img/user-fr_excel_access_0.png){: style="width:600px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
-## Charger un indicateur horizontalement
+## Download a serie horizontally
 
-Une autre manière de charger l'indicateur ci-dessus est d'écrire dans la cellule "get:eustat/apro_mk_colm/de/raw_milk_delivered" (sans mettre les guillemets).
+Another way to download the serie above is to write in a cell 'get:eustat/apro_mk_colm/de/raw_milk_delivered' (do not put '').
 
-Si get est utilisé pour récupérer un indicateur, geth est utilisé pour récupérer un indicateur de manière horizontale. A un autre endroit de la feuille, inscrivez "geth:eustat/apro_mk_colm/de/raw_milk_delivered" sans les guillemets. L'indicateur apparait maintenant horizontalement
+'get' is used to download a serie vertically. 'geth' is used to get a serie horizontally.
 
-
-## Charger plusieurs indicateurs différents
-
-Il est possible de charger en même temps plusieurs indicateurs différents. Il suffit de les séparer par des virgules.
-
-La formule "get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/cny" permet de récupérer directement les trois indicateurs de taux de change (CAD, AUD, CNY) contre l'Euro.
+In a different place in the worksheet, write 'geth:eustat/apro_mk_colm/de/raw_milk_delivered'. Select the cell. Click go. The serie appears now horizontally
 
 
-## Charger des indicateurs d'une même collection
+## Download multiple series
 
-Il est possible de charger des indicateurs au sein d'une même collection ou qui possèdent les mêmes parents.
+It is possible to download multiple series with a single call. You only have to separate them with commas.
 
-Par exemple, pour obtenir tous les indicateurs de taux de change contre l'euro, vous utilisez la commande suivante "get:xrate/monthly/eur/\*". "\*" signifie l'ensemble des indicateurs dont l'identifiant commence par "xrate/monthly/eur/".
+The formula 'get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.
 
-Cette requête retourne 31 résultats.
 
-## Prochaines étapes
+## Download series from a collection
 
-Nous avons évoqué les commandes simples pour obtenir des indicateurs. Dans le guide de référence, vous retrouverez comment faire des téléchargements de gros avec la commande "batch"
+It is possible to download multiple series from the same collection (or from the same directory, remember, a collection is organised like a directory of files).
+
+For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xrate/monthly/eur/\*'. '\*' means all series with an identifier starting with 'xrate/monthly/eur/'.
+
+This requests returns 31 results.
+
+## Next steps
+
+We have presented basic commands for Statit in Excel. We will provide more in the 'Reference' guide.

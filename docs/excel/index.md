@@ -1,48 +1,50 @@
-# Le complément Excel
+# The Excel add-in
 
-Si vous souhaitez utiliser les indicateurs dans Microsoft Excel, vous pouvez utiliser un complément qui vous permettra de télécharger les indicateurs directement dans Excel.
+This section will explain you how to access series hosted on Statit directly in Microsoft Excel.
 
-## Connexion au compte
+To achieve this, you are going to use an Excel add-in.
 
-Vous devez créer un compte pour utiliser Statit dans Excel. Si vous n'avez pas encore de compte, créez en un [ici](https://gostatit.com/sign). Si vous souhaitez suivre le tutorial, rendez-vous [ici](/favs/index.md).
+## Signing-in
 
-Si vous avez un compte, connectez-vous sur [ici](https://gostatit.com/sign).
+You need to have an account to use Statit in Excel.
 
-## Installation du complément
+If you do not have an account, create one [here](https://gostatit.com/sign). If you would like to folllow the tutorial to do this, head over [here](/perso/index.md).
 
-Ouvrez maintenant un classeur Excel. Cliquez dans l’onglet « Insertion » dans votre menu Excel
+If you have an account, sign-in [here](https://gostatit.com/sign).
 
-![Installer complément](/img/user-fr_excel_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+## Installing the add-in
 
-Cliquer sur « Compléments » puis « télécharger des compléments »
+Open now an Excel worksheet. Click on the 'Insert' tab on the screen.
 
-![Installer complément](/img/user-fr_excel_index_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![Installer complément](/img/user-en_excel_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Dans la fenêtre qui s’ouvre, renseignez « statit » dans la barre de recherche comme indiqué ci-dessous. Cliquez sur « ajouter » à droite du complément Statit
+Look for « Add-Ins ». Click on the Store and search for « statit ». Click on Add.
 
 ![Installer complément](/img/user-fr_excel_index_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Pensez à accepter la politique de confidentialité en cliquant sur « Continuer »
+Accept the licence and privacy policy.
 
 ![Installer complément](/img/user-fr_excel_index_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Voilà ! À présent Statit est installé dans votre menu Excel.
+You are there. The add-in is now installed and available in the top menu. Look for the Statit name and logo.
 
 ![Installer complément](/img/user-fr_excel_index_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Attention. Lorsque Microsoft Excel est administré par votre entreprise, il se peut que vous n'ayez pas les droits pour installer un complément. Si l'installation est refusée, demandez de l'aide à la personne qui gère votre réseau.
+Warning, when Microsoft Excel is managed by your organisation, you might not have the rights to install an add-in.
 
-## Authentification
+If the set-up is forbidden, ask your administrator for help.
 
-Pour commencer à utiliser Statit depuis Excel, cliquez sur le complément qui vient d’être installé.
+## Authentication
 
-Une fenêtre contextuelle s’ouvre à droite de votre feuille de calcul. Renseignez votre nom d’utilisateur « username » ainsi que la clé APU qui vous a été fournie à l’ouverture de votre compte.
+To start using Statit in Excel, click on the 'Statit' button in your top menu.
 
-Vous retrouverez votre nom d'utilisateur et votre clé API dans la partie "Mon compte" à laquelle vous accédez par le menu en haut à droite de l'application quand vous êtes connecté.
+A window opens on the right of the worksheet. Click on the 'Sign-In' tab on the top of the window.
+
+Fill-in your « username » and your API key.  You will find both in the "My account" space accessed by the top right menu in the Statit web application when you are signed-in.
 
 ![Installer complément](/img/user-fr_excel_index_5.png){: style="width:350px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
-## Prochaines étapes
+## Next steps
 
-Ca y est. Vous avez tout configuré. C'est le moment d'accéder aux indicateurs dans la [prochaine section](/access.md)
+That is it. You are all set. In the [next section](/access.md), you will get series directly in Excel.

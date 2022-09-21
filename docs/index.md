@@ -1,17 +1,15 @@
 # Welcome
 
-Hi, welcome on the **user guide**.
+Hi, welcome on **Statit user guide**.
 
-Statit is a platform to share time series. This guide will explain some basics about the platform and how to access series.
+Statit is an online library to let teams and communities share metrics easily. **This guide will explain the basics about the tool**. It is organised in **three sections**:
 
-If you are familiar with all this and are looking to publish series, the guide is [here](http://helppub_en.gostatit.com)
+* [**Getting started**](gs/index.md) - understanding how Statit works and access metrics
+* [**Following series**](perso/index.md) - saving your favorite metrics, creating alerts
+* [**Using Excel**](excel/index.md) - accessing metrics directly in Excel
 
-The guide is organised in **three parts**:
+If you are already familiar with all this and are looking to understand how to publish your own series, please visit the [editor guide](http://helppub_en.gostatit.com)
 
-* [**Getting started**](gs/index.md) - understand how Statit works and access series
-* [**Following series**](favs/index.md) - create an account, save favourite series, create alerts
-* [**Use Excel**](excel/index.md) - access series directly in Excel
-
-**Good luck**. Do not hesitate to [**get in touch**](mailto:hi@gostatit.com)  with any question.
+**Good luck**. Do not hesitate to [**get in touch**](mailto:help@gostatit.com) with any question.
 
 Best ✌️
