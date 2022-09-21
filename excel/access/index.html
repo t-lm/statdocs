@@ -407,29 +407,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#download-a-serie" class="md-nav__link">
-    Download a serie
+  <a href="#downloading-a-serie" class="md-nav__link">
+    Downloading a serie
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-a-serie-horizontally" class="md-nav__link">
-    Download a serie horizontally
+  <a href="#downloading-a-serie-horizontally" class="md-nav__link">
+    Downloading a serie horizontally
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-multiple-series" class="md-nav__link">
-    Download multiple series
+  <a href="#downloading-multiple-series" class="md-nav__link">
+    Downloading multiple series
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-series-from-a-collection" class="md-nav__link">
-    Download series from a collection
+  <a href="#downloading-all-series-from-a-collection" class="md-nav__link">
+    Downloading all series from a collection
   </a>
   
 </li>
@@ -481,29 +481,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#download-a-serie" class="md-nav__link">
-    Download a serie
+  <a href="#downloading-a-serie" class="md-nav__link">
+    Downloading a serie
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-a-serie-horizontally" class="md-nav__link">
-    Download a serie horizontally
+  <a href="#downloading-a-serie-horizontally" class="md-nav__link">
+    Downloading a serie horizontally
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-multiple-series" class="md-nav__link">
-    Download multiple series
+  <a href="#downloading-multiple-series" class="md-nav__link">
+    Downloading multiple series
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-series-from-a-collection" class="md-nav__link">
-    Download series from a collection
+  <a href="#downloading-all-series-from-a-collection" class="md-nav__link">
+    Downloading all series from a collection
   </a>
   
 </li>
@@ -530,24 +530,24 @@
                 
                 <h1 id="accessing-series">Accessing series</h1>
 <p>You are now ready to access series directly in Excel.</p>
-<h2 id="download-a-serie">Download a serie</h2>
+<h2 id="downloading-a-serie">Downloading a serie</h2>
 <p>To download a single serie, write in any cell the identifier of a public collection.</p>
 <p>Take for instance the serie 'eustat/apro_mk_colm/de/raw_milk_delivered' that represents the volumes of milk delivered by farms in Germany.</p>
-<p>Select the cell with the serie and click on "Go". That is it. After a few seconds, la série est chargée en dessous de l'identifiant</p>
+<p>Select the cell with the serie and click on "Go". That is it. After a few seconds, the serie is available in the sheet</p>
 <p><img alt="Installer complément" src="/img/user-fr_excel_access_0.png" style="width:600px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
-<h2 id="download-a-serie-horizontally">Download a serie horizontally</h2>
+<h2 id="downloading-a-serie-horizontally">Downloading a serie horizontally</h2>
 <p>Another way to download the serie above is to write in a cell 'get:eustat/apro_mk_colm/de/raw_milk_delivered' (do not put '').</p>
 <p>'get' is used to download a serie vertically. 'geth' is used to get a serie horizontally.</p>
 <p>In a different place in the worksheet, write 'geth:eustat/apro_mk_colm/de/raw_milk_delivered'. Select the cell. Click go. The serie appears now horizontally</p>
-<h2 id="download-multiple-series">Download multiple series</h2>
+<h2 id="downloading-multiple-series">Downloading multiple series</h2>
 <p>It is possible to download multiple series with a single call. You only have to separate them with commas.</p>
 <p>The formula 'get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.</p>
-<h2 id="download-series-from-a-collection">Download series from a collection</h2>
+<h2 id="downloading-all-series-from-a-collection">Downloading all series from a collection</h2>
 <p>It is possible to download multiple series from the same collection (or from the same directory, remember, a collection is organised like a directory of files).</p>
 <p>For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xrate/monthly/eur/*'. '*' means all series with an identifier starting with 'xrate/monthly/eur/'.</p>
 <p>This requests returns 31 results.</p>
 <h2 id="next-steps">Next steps</h2>
-<p>We have presented basic commands for Statit in Excel. We will provide more in the 'Reference' guide.</p>
+<p>We have presented basic commands for Statit in Excel. If you would like to publish metrics, please head over to the <a href="http://helppub_en.gostatit.com">publisher guide</a>.</p>
                 
               
               
