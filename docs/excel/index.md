@@ -22,10 +22,6 @@ Look for « Add-Ins ». Click on the Store and search for « statit ». Click on
 
 ![Installer complément](/img/user-fr_excel_index_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Accept the licence and privacy policy.
-
-![Installer complément](/img/user-fr_excel_index_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
-
 You are there. The add-in is now installed and available in the top menu. Look for the Statit name and logo.
 
 ![Installer complément](/img/user-fr_excel_index_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
@@ -47,4 +43,4 @@ Fill-in your « username » and your API key.  You will find both in the "My acc
 
 ## Next steps
 
-That is it. You are all set. In the [next section](/access.md), you will get series directly in Excel.
+That is it. You are all set. In the [next section](access.md), you will get series directly in Excel.
