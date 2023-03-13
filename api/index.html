@@ -1,0 +1,1315 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.1.11">
+    
+    
+      
+        <title>Getting started - User guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3754935a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+
+  
+
+
+  
+
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-163848470-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="orange">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started-with-the-rest-api" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://gostatit.com" title="User guide" class="md-header__button md-logo" aria-label="User guide" data-md-component="logo">
+      
+  <img src="../img/logo_statit_64.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            User guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://gostatit.com" title="User guide" class="md-nav__button md-logo" aria-label="User guide" data-md-component="logo">
+      
+  <img src="../img/logo_statit_64.png" alt="logo">
+
+    </a>
+    User guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Getting started
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs/" class="md-nav__link">
+        Accessing metrics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs/collections/" class="md-nav__link">
+        Visiting collections
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs/charts/" class="md-nav__link">
+        Viewing charts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs/account/" class="md-nav__link">
+        Creating an account
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Following series
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Following series" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Following series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perso/" class="md-nav__link">
+        Creating favourites & alerts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perso/dashboards/" class="md-nav__link">
+        Creating dashboards
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Using Excel
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Using Excel" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Using Excel
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../excel/" class="md-nav__link">
+        Installing the Excel add-in
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../excel/access/" class="md-nav__link">
+        Accessing metrics in Excel
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Using the API
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Using the API" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Using the API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Getting started
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-and-basic-concepts" class="md-nav__link">
+    Set-up and basic concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Set-up and basic concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-format" class="md-nav__link">
+    API format
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-point" class="md-nav__link">
+    End-point
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    Actions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors" class="md-nav__link">
+    Errors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-time-series" class="md-nav__link">
+    Accessing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-a-single-time-serie" class="md-nav__link">
+    Getting a single time serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting a single time serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listing-time-series" class="md-nav__link">
+    Listing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Listing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushing-time-series" class="md-nav__link">
+    Pushing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-collection" class="md-nav__link">
+    Creating a collection
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a collection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#put-a-serie" class="md-nav__link">
+    Put a serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Put a serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_3" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-an-authorisation" class="md-nav__link">
+    Add an authorisation
+  </a>
+  
+    <nav class="md-nav" aria-label="Add an authorisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_4" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-authorisation" class="md-nav__link">
+    Removing the authorisation
+  </a>
+  
+    <nav class="md-nav" aria-label="Removing the authorisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_5" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-serie" class="md-nav__link">
+    Removing the serie
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-collection" class="md-nav__link">
+    Removing the collection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    Next steps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="reference/" class="md-nav__link">
+        Reference
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-and-basic-concepts" class="md-nav__link">
+    Set-up and basic concepts
+  </a>
+  
+    <nav class="md-nav" aria-label="Set-up and basic concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-format" class="md-nav__link">
+    API format
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-point" class="md-nav__link">
+    End-point
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    Actions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors" class="md-nav__link">
+    Errors
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-time-series" class="md-nav__link">
+    Accessing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#getting-a-single-time-serie" class="md-nav__link">
+    Getting a single time serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting a single time serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listing-time-series" class="md-nav__link">
+    Listing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Listing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushing-time-series" class="md-nav__link">
+    Pushing time series
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushing time series">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-collection" class="md-nav__link">
+    Creating a collection
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a collection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_2" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#put-a-serie" class="md-nav__link">
+    Put a serie
+  </a>
+  
+    <nav class="md-nav" aria-label="Put a serie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_3" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-an-authorisation" class="md-nav__link">
+    Add an authorisation
+  </a>
+  
+    <nav class="md-nav" aria-label="Add an authorisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_4" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-authorisation" class="md-nav__link">
+    Removing the authorisation
+  </a>
+  
+    <nav class="md-nav" aria-label="Removing the authorisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_5" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-serie" class="md-nav__link">
+    Removing the serie
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removing-the-collection" class="md-nav__link">
+    Removing the collection
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    Next steps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="getting-started-with-the-rest-api">Getting started with the REST API</h1>
+<p>This tutorial will take you the <strong>main operations on the core Statit API</strong>:</p>
+<ul>
+<li>
+<p><a href="#set-up-and-basic-concepts"><strong>Set-up and basic concepts</strong></a></p>
+</li>
+<li>
+<p><a href="#accessing-time-series"><strong>Accessing time series</strong></a></p>
+<ul>
+<li>Getting a single time serie</li>
+<li>Getting a list of time series in a collection</li>
+</ul>
+</li>
+</ul>
+<h2 id="set-up-and-basic-concepts"><strong>Set-up and basic concepts</strong></h2>
+<h3 id="api-format">API format</h3>
+<p>The API accepts <strong>HTTP GET and POST requests</strong>.</p>
+<p>All examples are presented with 'curl'. You can run requests with any client. </p>
+<h3 id="end-point">End-point</h3>
+<p>All requests must be addressed to: <strong>https://api.gostatit.com/core</strong>.</p>
+<p>Core stands for the core API.</p>
+<pre><code class="language-bash">### request
+
+curl https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;message&quot;: &quot;Welcome on Statit core API&quot;
+}
+
+</code></pre>
+<h3 id="authentication">Authentication</h3>
+<p>Your <strong>requests must be identified with your credentials</strong>: your username and API Key.</p>
+<p>Your <strong>username</strong> and <strong>API key</strong> can be found in the <strong>account section</strong> in the home page for your profile.</p>
+<p>The API uses <strong>basic Http authentication</strong>. On the command line, it looks like</p>
+<pre><code class="language-bash">### request
+
+curl  -X POST \
+      -u username:apikey \
+      https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;code&quot;: &quot;ERROR_PARAM_REQUIRED&quot;, ...
+}
+</code></pre>
+<h3 id="actions">Actions</h3>
+<p>Once you are authentified, you can call specific actions: getSerie, getCollection, putSerie ...</p>
+<p>You will do this by adding a json object to the query specifying the action called and the required inputs for the action.</p>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;getSerie&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;climat-fr/cei-m/region/bretagne/temp&quot;}}' \
+    https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;Item&quot;: {
+  &quot;unit&quot;: &quot;Degree Celcius&quot;,
+  ...
+  }
+}
+
+</code></pre>
+<p>In the request above, we call the 'getSerie' action to get a single serie and pass a parameter called input with the 'id' of the serie we are requiring.</p>
+<p>If you would like to learn the basics about serie identifiers, please head over to <a href="/gs/index.md">Getting started on the web</a>.</p>
+<h3 id="errors">Errors</h3>
+<p>If your request can not be processed, the API will return an error code with an error message.</p>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;getSerie&quot; }' \
+    https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;code&quot;: &quot;ERROR_PARAM_REQUIRED&quot;,
+  &quot;message&quot;: &quot;Error. Your request is missing a required parameter. Please check the documentation&quot;
+}
+
+</code></pre>
+<h2 id="accessing-time-series"><strong>Accessing time series</strong></h2>
+<h3 id="getting-a-single-time-serie">Getting a single time serie</h3>
+<p>We have already explored this in the example above.</p>
+<h4 id="example">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;getSerie&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;clim/copernicus-r/daily/frh0/temp/real&quot;}}' \
+    https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;Item&quot;: {
+    &quot;unit&quot;: &quot;Degree Celcius&quot;,
+    &quot;frequency&quot;: &quot;M&quot;,
+    &quot;sources&quot;: &quot;Copernicus. Climate and Environmental Series&quot;,
+    &quot;name&quot;: &quot;Monthly real temperature&quot;,
+    &quot;updated&quot;: &quot;2021-03-10T17:14:45.504Z&quot;,
+    &quot;observations&quot;: &quot;[[\&quot;1979-01-01\&quot;, \&quot;1.6\&quot;], [\&quot;1979-02-01\&quot;, \&quot;5.3\&quot;], [\&quot;1979-03-01\&quot;, \&quot;6.7\&quot;], [\&quot;1979-04-01\&quot;, \&quot;8.5\&quot;], [\&quot;1979-05-01\&quot;, \&quot;11.0\&quot;], [\&quot;1979-06-01\&quot;, \&quot;14.6\&quot;] ...&quot;
+    &quot;description&quot;: &quot;Average monthly temperature (degree Celcius)&quot;,
+    &quot;id&quot;: &quot;clim/copernicus-r/daily/frh0/temp/real&quot;,
+    &quot;tags&quot;: []
+  }
+}
+</code></pre>
+<p>The Item object is quite explicit. It contains both serie metadata and data. Note that observations is a stringified array. You can transform it into an array using JSON parsers.</p>
+<h3 id="listing-time-series">Listing time series</h3>
+<p>The API let you request "children" series with a single parent.</p>
+<p>As an example, if you are looking to get all indicators for waste in "Paris", you will call <a href="https://gostatit.com/dechets/dma-dpt/paris/dechets-menagers-associes">dechets-fr/dma-dpt/paris/dechets-menagers-associes</a> and the request will return all related time series.</p>
+<p>It is necessary to specify exactly the id of the parent. The size of the response is limited to 1MB.</p>
+<h4 id="example_1">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;listSeries&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;dechets/dma-dpt/paris/dechets-menagers-associes&quot;}}' \
+    https://api.gostatit.com/core
+
+### response
+
+{
+  &quot;Items&quot;: [
+    {
+      &quot;unit&quot;: &quot;Tons&quot;,
+      &quot;frequency&quot;: &quot;Y&quot;,
+      &quot;sources&quot;: &quot;Base Sinoe de l'Ademe&quot; ,
+      &quot;name&quot;: &quot;Paris | Déchets ménagers et associés | Valorisation énergétique&quot;,
+      &quot;updated&quot;: &quot;2021-02-24T07:05:32.120Z&quot;,
+      &quot;observations&quot;: &quot;[[\&quot;2009-01-01\&quot;, \&quot;842125.33407\&quot;], [\&quot;2011-01-01\&quot;, \&quot;833876.24514\&quot;], [\&quot;2013-01-01\&quot;, \&quot;803965.81276\&quot;], ...]&quot;,
+      &quot;description&quot;: &quot;Paris. Déchets ménagers et associés. Valorisation énergétique&quot;,
+      &quot;id&quot;: &quot;dechets-fr/dma-dpt/paris/dechets-menagers-associes/valo_energetique&quot;
+    },
+    {...}
+  ]
+}
+
+</code></pre>
+<h2 id="pushing-time-series"><strong>Pushing time series</strong></h2>
+<p>Before using the API to create a collection and push time series, we recommended you try doing it on the web first. Follow the <a href="/gs/index.md">documentation</a> to understand the main concepts.</p>
+<p>Once you have done this, we will only recap the main steps to:</p>
+<ul>
+<li>Create a collection</li>
+<li>Add series to the collection</li>
+<li>Add authorisations to the collection</li>
+</ul>
+<h3 id="creating-a-collection">Creating a collection</h3>
+<p>You create a new collection by providing its 'id' and its 'name'. For this demo, we will create a temperature collection named 'temp'.</p>
+<p>Replace username and apikey by your credentials below.</p>
+<h4 id="example_2">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;putCollection&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;username/temp&quot;, &quot;name&quot;: &quot;My temperature collection&quot; }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp&quot;
+  }
+}
+</code></pre>
+<p>That's it. You have created your username/temp collection. Well done.</p>
+<h3 id="put-a-serie">Put a serie</h3>
+<p>Now, let's add a serie inside.</p>
+<p>The required parameters for a serie are: id, name and frequency.</p>
+<h4 id="example_3">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;putSerie&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;username/temp/new-york&quot;, &quot;name&quot;: &quot;New York temperatures&quot;, &quot;frequency&quot;: &quot;D&quot;, &quot;observations&quot;: &quot;[[\&quot;2021-03-07\&quot;, 10.0], [\&quot;2021-03-08\&quot;, 11.4]]&quot; }}' \
+    https://api.gostatit.com/core
+
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp/new-york&quot;
+  }
+}
+</code></pre>
+<p>That's it. You have added the username/temp/new-york serie to your collection. Congrats.</p>
+<h3 id="add-an-authorisation">Add an authorisation</h3>
+<p>Now is the time to create an authorisation to make your serie available to other people.</p>
+<p>To keep it simple, we will make our serie public. To achieve this, we will use "public" as a username.</p>
+<p>Before we do this, try to access your series on https://gostatit.com/YOUR-USERNAME/temp/new-york. If you are not signed-in, you will not be able to see the serie.</p>
+<p>Then, create the authorisation.</p>
+<h4 id="example_4">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;putCollectionAuth&quot;, &quot;input&quot;: { &quot;id&quot;: &quot;username/temp&quot;, &quot;username&quot;: &quot;public&quot;, &quot;type&quot;: &quot;viewer&quot; }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp&quot;,
+    &quot;username&quot;: &quot;public&quot;,
+    &quot;type&quot;: &quot;viewer&quot;
+  }
+}
+</code></pre>
+<p>Well done. Now check https://gostatit.com/YOUR-USERNAME/temp/new-york. Your collection and serie can be accessed by everyone.</p>
+<h3 id="removing-the-authorisation">Removing the authorisation</h3>
+<p>Time to clean-up. Let's remove the "publics" authorisation.</p>
+<h4 id="example_5">Example</h4>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;deleteCollectionAuth&quot;, &quot;input&quot;: { &quot;id&quot;: &quot;username/temp&quot;, &quot;username&quot;: &quot;public&quot; }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp&quot;,
+    &quot;username&quot;: &quot;public&quot;,
+  }
+}
+</code></pre>
+<h3 id="removing-the-serie">Removing the serie</h3>
+<p>Now, let's remove the serie from the collection.</p>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;deleteSerie&quot;, &quot;input&quot;: { &quot;id&quot;: &quot;username/temp/new-york&quot; }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp/new-york&quot;,
+  }
+}
+</code></pre>
+<h3 id="removing-the-collection">Removing the collection</h3>
+<p>Now that we have emptied the collection, we can safely remove it.</p>
+<pre><code class="language-bash">### request
+
+curl -X POST \
+    -u username:apikey \
+    -H &quot;Content-Type: application/json&quot; \
+    -d '{&quot;action&quot;: &quot;deleteCollection&quot;, &quot;input&quot;: { &quot;id&quot;: &quot;username/temp&quot; }}' \
+    https://api.gostatit.com/core
+
+
+### response
+
+{
+  &quot;input&quot;: {
+    &quot;id&quot;: &quot;username/temp&quot;,
+  }
+}
+</code></pre>
+<p>That's it. You have completed the tutorial. Congratulations.</p>
+<h3 id="next-steps">Next steps</h3>
+<p>You will find the full API reference <a href="reference/">here</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../excel/access/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Accessing metrics in Excel" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Accessing metrics in Excel
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="reference/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Reference" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Reference
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.sections", "navigation.instant", "navigation.tracking"], "translations": {"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ddd52ceb.min.js"></script>
+      
+    
+  </body>
+</html>
