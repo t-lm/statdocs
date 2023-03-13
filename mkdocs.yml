@@ -12,6 +12,9 @@ nav:
     - Using Excel:
       - Installing the Excel add-in: excel/index.md
       - Accessing metrics in Excel: excel/access.md
+    - Using the API:
+      - Getting started: api/index.md
+      - Reference: api/reference.md
 theme:
   name: material
   palette:
