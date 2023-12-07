@@ -41,4 +41,4 @@ This requests returns 31 results.
 
 ## Next steps
 
-We have presented basic commands for Statit in Excel. If you would like to publish metrics, please head over to the [publisher guide](http://helppub_en.gostatit.com).
+We have presented basic commands for Statit in Excel. If you would like to publish metrics, please head over to the [publisher guide](http://helppub.gostatit.com).

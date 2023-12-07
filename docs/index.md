@@ -9,7 +9,7 @@ Statit is an online library to let teams and communities share metrics easily. *
 * [**Using Excel**](excel/index.md) - working with metrics directly in Excel
 * [**Using the API-b**](api/index.md) - accessing metrics directly in the API
 
-If you are already familiar with all this and are looking to understand how to publish your own series, please visit the [publisher guide](http://helppub_en.gostatit.com)
+If you are already familiar with all this and are looking to understand how to publish your own series, please visit the [publisher guide](http://helppub.gostatit.com)
 
 **Good luck**. Do not hesitate to [**get in touch**](mailto:help@gostatit.com) with any question.
 

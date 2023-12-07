@@ -89,4 +89,4 @@ You have now learnt to build your own dashboards and charts.
 
 If you are interested to access series directly in Excel, head over [here](/excel)
 
-If you would like to publish series, head to the [publisher guide](http://helppub_en.gostatit.com/)
+If you would like to publish series, head to the [publisher guide](http://helppub.gostatit.com/)
