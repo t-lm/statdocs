@@ -1,3 +1,11 @@
+2023-12-05:
+===========
+
+- at the moment this is the only version for the user guide that is supported
+
+2023-03-20:
+===========
+
 run local:
 - mkdocs serve
 
