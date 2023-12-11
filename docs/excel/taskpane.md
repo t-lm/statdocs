@@ -1,6 +1,7 @@
-# Accessing series
+# Using the taskpane
+s
 
-You are now ready to access series directly in Excel.
+You have two ways to get series in your workbook: custom functions and the taskpane. In this page, we will look at the taskpane.
 
 
 ## Downloading a serie
@@ -35,8 +36,6 @@ The formula 'get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/u
 It is possible to download multiple series from the same collection (or from the same directory, remember, a collection is organised like a directory of files).
 
 For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xrate/monthly/eur/\*'. '\*' means all series with an identifier starting with 'xrate/monthly/eur/'.
-
-This requests returns 31 results.
 
 
 ## Next steps

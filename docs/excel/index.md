@@ -1,6 +1,6 @@
 # The Excel add-in
 
-This section will explain you how to access series hosted on Statit directly in Microsoft Excel.
+This section will show you how to access series directly in Microsoft Excel.
 
 To achieve this, you are going to use an Excel add-in.
 
@@ -26,9 +26,7 @@ You are there. The add-in is now installed and available in the top menu. Look f
 
 ![Installer complément](/img/user-fr_excel_index_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Warning, when Microsoft Excel is managed by your organisation, you might not have the rights to install an add-in.
-
-If the set-up is forbidden, ask your administrator for help.
+If Microsoft Excel is managed by your organisation, you might not have the rights to install an add-in. If the set-up is forbidden, ask your administrator for help.
 
 ## Authentication
 
@@ -43,4 +41,4 @@ Fill-in your « username » and your API key.  You will find both in the "My acc
 
 ## Next steps
 
-That is it. You are all set. In the [next section](access.md), you will get series directly in Excel.
+That is it. You are all set. In the [next section](functions.md), you will get series directly in Excel.

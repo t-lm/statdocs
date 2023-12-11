@@ -11,7 +11,8 @@ nav:
       - Creating dashboards: perso/dashboards.md
     - Using Excel:
       - Installing the Excel add-in: excel/index.md
-      - Accessing metrics in Excel: excel/access.md
+      - Using functions: excel/functions.md
+      - Using the taskane: excel/taskpane.md
     - Using the API:
       - Getting started: api/index.md
       - Reference: api/reference.md
