@@ -9,10 +9,13 @@ nav:
     - Following series:
       - Creating favourites & alerts: perso/index.md
       - Creating dashboards: perso/dashboards.md
-    - Using Excel:
+    - Microsoft Excel:
       - Installing the Excel add-in: excel/index.md
       - Using functions: excel/functions.md
-      - Using the taskane: excel/taskpane.md
+      - Using the taskpane: excel/taskpane.md
+    - Google Sheets:
+      - Installing the add-on: gsheets/index.md
+      - Using functions: gsheets/functions.md
     - Using the API:
       - Getting started: api/index.md
       - Reference: api/reference.md
