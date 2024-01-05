@@ -2,15 +2,12 @@
 
 Hi, welcome on **Statit user guide**.
 
-Statit is an online library to let teams and communities share metrics easily. **This guide will explain the basics about the tool**. It is organised in **fours sections**:
+Statit is a tool to access metrics easily. **This guide will explain you the basics**. It is organised in **fours sections**:
 
-* [**Getting started**](gs/index.md) - understanding how Statit works and access metrics
+* [**Getting started**](gs/index.md) - understanding how Statit works and accessing metrics on the web
 * [**Following series**](perso/index.md) - saving your favorite metrics, creating alerts
-* [**Using Excel**](excel/index.md) - working with metrics directly in Microsoft Excel
-* [**Using Google Sheets**](gsheets/index.md) - working with metrics directly in Google Sheets
-* [**Using the API**](api/index.md) - accessing metrics directly in the API
-
-If you are already familiar with all this and are looking to understand how to publish your own series, please visit the [publisher guide](http://helppub.gostatit.com)
+* [**Using Excel**](excel/index.md) - accessing metrics directly in Microsoft Excel
+* [**Using Google Sheets**](gsheets/index.md) - accessing metrics in Google Sheets
 
 **Good luck**. Do not hesitate to [**get in touch**](mailto:help@gostatit.com) with any question.
 
