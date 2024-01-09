@@ -6,7 +6,7 @@ Like for books, **collections contain series that are similar** - series from a 
 
 Collections have also their own identifiers on Statit. Here are three examples:
 
-- Daily international exchange rates: [xrate/daily](https://www.gostatit.com/xrate/daily)
+- Daily international exchange rates: [xr/daily](https://www.gostatit.com/xr/daily)
 - World historical and forecast cereal production from USDA: [psd/sd-grains](https://www.gostatit.com/psd/sd-grains)
 - World bank commodity prices: [world-bank/pink](https://www.gostatit.com/world-bank/pink)
 
@@ -16,11 +16,11 @@ Let's click on the first link.
 
 ![Collection](/img/user-en_gs_org_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-On the top left, 'Xrate' is the name of the account hosting the series.
+On the top left, 'xr' is the name of the account hosting the series.
 
 This account is public and visible by everyone on the Internet. This is not the case of private accounts, only visible by their members.
 
-A little below, you will find grey links [xrate](https://www.gostatit.com/xrate) / [daily](https://www.gostatit.com/xrate/daily). These links allow you to navigate inside the collection.
+A little below, you will find grey links [xr](https://www.gostatit.com/xr) / [daily](https://www.gostatit.com/xr/daily). These links allow you to navigate inside the collection.
 
 Below, you will find the name of the collection (here "International daily exchange rates").
 
@@ -41,9 +41,9 @@ In a collection, series are organised like files on a computer.
 
 To find the serie you are interested in, you need to browse the directories of the collection by clicking on them (single click).
 
-Click on the tab [Series](https://www.gostatit.com/xrate/daily?tab=metrics).
+Click on the tab [Series](https://www.gostatit.com/xr/daily?tab=metrics).
 
-![xrate/daily](/img/user-en_gs_metrics_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-en_gs_metrics_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 You can see three directories:
 
@@ -53,25 +53,25 @@ You can see three directories:
 
 ## Navigating down the collection
 
-Click now on [eur](https://www.gostatit.com/xrate/daily/eur). You will see a list of series preceded by a bar chart icon. You are nearly there.
+Click now on [eur](https://www.gostatit.com/xr/daily/eur). You will see a list of series preceded by a bar chart icon. You are nearly there.
 
-![xrate/daily/eur](/img/user-en_gs_metrics_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily/eur](/img/user-en_gs_metrics_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 In this collection, series are named with 3 letters codes like "aud" or "brl". These codes use international for currencies: the [ISO 4217 norm](https://fr.wikipedia.org/wiki/ISO_4217):
 
 - "aud" is for Australian Dollar
 - "brl" is for Brazilian Real ...
 
-In the search input, type usd. Click then on [usd](https://www.gostatit.com/xrate/daily/eur/usd) for US Dollar.
+In the search input, type usd. Click then on [usd](https://www.gostatit.com/xr/daily/eur/usd) for US Dollar.
 
-![xrate/daily](/img/user-en_gs_metrics_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-en_gs_metrics_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## Navigating up
 
 To move back upward in the collection, you can click on the grey links on the top of the page.
 
-If you want to go back at the account level, click on [xrate](https://www.gostatit.com/xrate). If you want to go to the collection, click on [daily](https://www.gostatit.com/xrate/daily)
+If you want to go back at the account level, click on [xr](https://www.gostatit.com/xr). If you want to go to the collection, click on [daily](https://www.gostatit.com/xr/daily)
 
 ## Next steps
 

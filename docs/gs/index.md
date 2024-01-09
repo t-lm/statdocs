@@ -24,7 +24,7 @@ Here are three series with their identifiers:
 
 **Click on the first link above** to access the serie.
 
-![xrate/daily](/img/user-en_gs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-en_gs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## The description
@@ -47,14 +47,14 @@ Finally, at the bottom of the chart, the grey area allows you to select a specif
 
 Try for instance to select the 2021 year by pulling the "left handle" towards the right.
 
-![xrate/daily](/img/user-fr_gs_index_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-fr_gs_index_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## Reading values
 
 You can click on the small icons above the chart on the left to change the view to a bar chart or values. Click on the grid to see the values.
 
-![xrate/daily](/img/user-fr_gs_metrics_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-fr_gs_metrics_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 You can then sort the lines by date or by value by clicking on the arrows above the columns.
 
@@ -67,7 +67,7 @@ You can download the chart as an image or the values in an Excel ou CSV file (wi
 
 Create an account [here](https://www.gostatit.com/sign) to download the serie. It is free and takes 2 minutes.
 
-![xrate/daily](/img/user-fr_gs_metrics_4.png){: style="width:300px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-fr_gs_metrics_4.png){: style="width:300px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## Perform preliminary analysis
@@ -78,7 +78,7 @@ Click on the icon on the right of the download menu.You can aggregate values on 
 
 Try aggregating the values by month
 
-![xrate/daily](/img/user-fr_gs_metrics_5.png){: style="width:300px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+![xr/daily](/img/user-fr_gs_metrics_5.png){: style="width:300px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## Public or private

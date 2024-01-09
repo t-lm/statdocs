@@ -28,14 +28,14 @@ In a different place in the worksheet, write 'geth:eustat/apro_mk_colm/de/raw_mi
 
 It is possible to download multiple series with a single call. You only have to separate them with commas.
 
-The formula 'get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.
+The formula 'get:xr/monthly/eur/cad,xr/monthly/eur/aud,xr/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.
 
 
 ## Downloading all series from a collection
 
 It is possible to download multiple series from the same collection (or from the same directory, remember, a collection is organised like a directory of files).
 
-For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xrate/monthly/eur/\*'. '\*' means all series with an identifier starting with 'xrate/monthly/eur/'.
+For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xr/monthly/eur/\*'. '\*' means all series with an identifier starting with 'xr/monthly/eur/'.
 
 
 ## Next steps

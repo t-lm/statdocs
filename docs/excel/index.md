@@ -2,15 +2,9 @@
 
 This section will show you how to access series directly in Microsoft Excel.
 
-To achieve this, you are going to use an Excel add-in.
+To achieve this, you will need to install an add-in to Microsoft Excel. This is a safe and typical method to add functionalities to Microsost Excel. 
 
-## Signing-in
-
-You need to have an account to use Statit in Excel.
-
-If you do not have an account, create one [here](https://gostatit.com/sign). If you would like to folllow the tutorial to do this, head over [here](/perso/index.md).
-
-If you have an account, sign-in [here](https://gostatit.com/sign).
+Follow the installation steps below. 
 
 ## Installing the add-in
 
@@ -27,16 +21,6 @@ You are there. The add-in is now installed and available in the top menu. Look f
 ![Installer complément](/img/user-fr_excel_index_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 If Microsoft Excel is managed by your organisation, you might not have the rights to install an add-in. If the set-up is forbidden, ask your administrator for help.
-
-## Authentication
-
-To start using Statit in Excel, click on the 'Statit' button in your top menu.
-
-A window opens on the right of the worksheet. Click on the 'Sign-In' tab on the top of the window.
-
-Fill-in your « username » and your API key.  You will find both in the "My account" space accessed by the top right menu in the Statit web application when you are signed-in.
-
-![Installer complément](/img/user-fr_excel_index_5.png){: style="width:350px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
 ## Next steps

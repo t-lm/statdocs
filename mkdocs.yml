@@ -6,16 +6,17 @@ nav:
       - Visiting collections: gs/collections.md
       - Viewing charts: gs/charts.md
       - Creating an account: gs/account.md
-    - Following series:
-      - Creating favourites & alerts: perso/index.md
-      - Creating dashboards: perso/dashboards.md
     - Microsoft Excel:
       - Installing the add-in: excel/index.md
       - Using functions: excel/functions.md
       - Using the taskpane: excel/taskpane.md
+      - Signing-in: excel/signin.md
     - Google Sheets:
       - Installing the add-on: gsheets/index.md
       - Using functions: gsheets/functions.md
+    - Following series:
+      - Creating favourites & alerts: perso/index.md
+      - Creating dashboards: perso/dashboards.md
 theme:
   name: material
   palette:
