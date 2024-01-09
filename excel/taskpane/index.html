@@ -279,62 +279,6 @@
 
   
   
-  
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
-      
-      <label class="md-nav__link" for="__nav_3">
-        Following series
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Following series" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Following series
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perso/" class="md-nav__link">
-        Creating favourites & alerts
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perso/dashboards/" class="md-nav__link">
-        Creating dashboards
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
     
   
   
@@ -344,14 +288,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
-      <label class="md-nav__link" for="__nav_4">
+      <label class="md-nav__link" for="__nav_3">
         Microsoft Excel
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Microsoft Excel" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Microsoft Excel
         </label>
@@ -461,6 +405,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../signin/" class="md-nav__link">
+        Signing-in
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -480,14 +436,14 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
-      <label class="md-nav__link" for="__nav_5">
+      <label class="md-nav__link" for="__nav_4">
         Google Sheets
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Google Sheets" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Google Sheets
         </label>
@@ -512,6 +468,62 @@
     <li class="md-nav__item">
       <a href="../../gsheets/functions/" class="md-nav__link">
         Using functions
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Following series
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Following series" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Following series
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perso/" class="md-nav__link">
+        Creating favourites & alerts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perso/dashboards/" class="md-nav__link">
+        Creating dashboards
       </a>
     </li>
   
@@ -610,10 +622,10 @@
 <p>In a different place in the worksheet, write 'geth:eustat/apro_mk_colm/de/raw_milk_delivered'. Select the cell. Click go. The serie appears now horizontally</p>
 <h2 id="downloading-multiple-series">Downloading multiple series</h2>
 <p>It is possible to download multiple series with a single call. You only have to separate them with commas.</p>
-<p>The formula 'get:xrate/monthly/eur/cad,xrate/monthly/eur/aud,xrate/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.</p>
+<p>The formula 'get:xr/monthly/eur/cad,xr/monthly/eur/aud,xr/monthly/eur/usd' lets you download the three exchange rate series (CAD, AUD, USD) against Euro.</p>
 <h2 id="downloading-all-series-from-a-collection">Downloading all series from a collection</h2>
 <p>It is possible to download multiple series from the same collection (or from the same directory, remember, a collection is organised like a directory of files).</p>
-<p>For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xrate/monthly/eur/*'. '*' means all series with an identifier starting with 'xrate/monthly/eur/'.</p>
+<p>For instance, to get all monthly metrics against Euro, you can use the following formula 'get:xr/monthly/eur/*'. '*' means all series with an identifier starting with 'xr/monthly/eur/'.</p>
 <h2 id="next-steps">Next steps</h2>
 <p>We have presented basic commands for Statit in Excel. If you would like to publish metrics, please head over to the <a href="http://helppub.gostatit.com">publisher guide</a>.</p>
                 
@@ -651,13 +663,13 @@
       
       
         
-        <a href="../../gsheets/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Installing the add-on" rel="next">
+        <a href="../signin/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Signing-in" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Suivant
               </span>
-              Installing the add-on
+              Signing-in
             </div>
           </div>
           <div class="md-footer__button md-icon">
