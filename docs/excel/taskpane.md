@@ -1,5 +1,4 @@
 # Using the taskpane
-s
 
 You have two ways to get series in your workbook: custom functions and the taskpane. In this page, we will look at the taskpane.
 
