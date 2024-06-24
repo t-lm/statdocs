@@ -1,24 +1,52 @@
-site_name: User guide
+site_name: Statit Guide
 nav:
-    - Welcome: index.md
+  - Welcome: index.md
+  - Beginner Guide:
     - Getting started:
-      - Accessing metrics: gs/index.md
-      - Visiting collections: gs/collections.md
-      - Viewing charts: gs/charts.md
-      - Creating an account: gs/account.md
-    - Microsoft Excel:
-      - Installing the add-in: excel/index.md
-      - Using functions: excel/functions.md
-      - Using the taskpane: excel/taskpane.md
-      - Signing-in: excel/signin.md
-    - Google Sheets:
-      - Installing the add-on: gsheets/index.md
-      - Using functions: gsheets/functions.md
-    - Following series:
-      - Creating favourites & alerts: perso/index.md
-      - Creating dashboards: perso/dashboards.md
+      - Metrics: bg/gs/metrics.md
+      - Collections: bg/gs/collections.md
+      - Charts: bg/gs/charts.md
+    - Using the website:
+      - Creating an account:  bg/web/account.md
+      - Creating favorites & alerts: bg/web/favs.md
+      - Creating dashboards: bg/web/dashboards.md
+    - Using the spreadsheet add-ons:
+      - Installing (Excel): bg/spread/install_excel.md
+      - Installing (Google Sheets): bg/spread/install_sheets.md
+      - Using functions: bg/spread/functions.md
+      - Using the Taskpane (Excel): bg/spread/taskpane.md
+      - Signing-in (Excel): bg/spread/signin.md
+  - Advanced Guide:
+    - Preliminaries:
+      - Configuring your account: ag/prel/account.md
+      - Acessing your API key: ag/prel/key.md
+    - Publishing with the website:
+      - Creating collections: ag/web/collections.md
+      - Publishing series: ag/web/series.md
+      - Adding charts: ag/web/charts.md
+    - Publishing with Excel:
+      - Simple publishing: ag/excel/simple.md
+    - Collaborating on Statit:
+      - Inviting collaborators: ag/collab/inviting.md
+      - Managing access: ag/collab/managing.md
+      - Creating a private collection: ag/collab/private.md
+  - Developper Guide:
+    - The APIs:
+      - Authenthicating yourself: dg/api/auth.md
+      - Core API reference: dg/api/core.md
+      - Functions API reference: dg/api/functions.md
+    - Working with Python (statit_py):
+      - Installation and Quick usage: dg/py/quick.md
+      - Docs: dg/py/docs.md
+    - Working with JavaScript (statit_js):
+      - Installation and Quick usage: dg/js/quick.md
+      - Docs: dg/js/docs.md
+    - Using Statit on your website (Statstrap):
+      - Including Statstrap: dg/html/include.md
+      - The `statit` tag: dg/html/tag.md
+      - Using iFrames: dg/html/iframes.md
 theme:
-  name: material
+  name: mkdocs
   palette:
     primary: white
     secondary: black
@@ -27,7 +55,7 @@ theme:
   favicon: img/favicon.ico
   language: fr
   features:
-    #- navigation.tabs
+    - navigation.tabs
     - navigation.indexes
     - navigation.sections
     - navigation.instant
