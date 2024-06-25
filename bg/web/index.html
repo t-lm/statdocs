@@ -1,0 +1,1351 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../gs/">
+      
+      
+        <link rel="next" href="../spread/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
+    
+    
+      
+        <title>Using the website - Statit Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","UA-163848470-1"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","UA-163848470-1",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=UA-163848470-1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#using-the-website" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://gostatit.com" title="Statit Guide" class="md-header__button md-logo" aria-label="Statit Guide" data-md-component="logo">
+      
+  <img src="../../img/logo_statit_64.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Statit Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Using the website
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Welcome
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+    
+  
+  Beginner Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../ag/" class="md-tabs__link">
+          
+  
+    
+  
+  Advanced Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../dg/" class="md-tabs__link">
+          
+  
+    
+  
+  Developper Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://gostatit.com" title="Statit Guide" class="md-nav__button md-logo" aria-label="Statit Guide" data-md-component="logo">
+      
+  <img src="../../img/logo_statit_64.png" alt="logo">
+
+    </a>
+    Statit Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Beginner Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Beginner Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Using the website
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Using the website
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#your-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Account
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Account">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating the account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home page
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personal information
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-favourites-and-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Favourites and Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Favourites and Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#following-a-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a collection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#following-a-serie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a serie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-and-change-favorites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access and change favorites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#following-a-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a dashboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-dashboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Dashboards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Dashboards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating the dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding charts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding charts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      First chart
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Second chart
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing charts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-your-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing your dashboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spread/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using the spreadsheet plugins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ag/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Advanced Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ag/prel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preliminaries
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ag/web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publishing with the website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ag/excel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publishing with Excel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ag/collab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Collaborating on Statit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../dg/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Developper Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Developper Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dg/api/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The APIs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dg/py/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dg/js/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with JavaScript
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dg/html/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using Statit on your website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#your-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Account
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Account">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating the account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Home page
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personal information
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-favourites-and-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Favourites and Alerts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Favourites and Alerts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#following-a-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a collection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#following-a-serie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a serie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-and-change-favorites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Access and change favorites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#following-a-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Following a dashboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-dashboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Dashboards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Dashboards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-the-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating the dashboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding charts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding charts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      First chart
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Second chart
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-series" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding series
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-charts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing charts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-your-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing your dashboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="using-the-website">Using the website</h1>
+<h2 id="your-account">Your Account</h2>
+<p>If you already have an account, you can already go to the <a href="#favourites-and-alerts">Favorites and Alerts</a> section.</p>
+<p>Otherwise, to create an account, follow the instructions below.</p>
+<h3 id="creating-the-account">Creating the account</h3>
+<p>Go to <a href="https://www.gostatit.com/sign">sign-up page</a>, enter your email and click on 'Next'.</p>
+<p><img alt="Inscription" src="/img/user-fr_favs_index_0.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>On the next screen, we will ask you the type of account you want to create, a username and a password.</p>
+<p>There are two types of accounts:</p>
+<ul>
+<li>'User' accounts allow you to access public and private series</li>
+<li>'Publisher' accounts allow you to publish series and share them with collaborators</li>
+</ul>
+<p>You can start with a 'User' account and later transform it into a 'Publisher' account. For now, choose a 'User' account.</p>
+<p>The username will represent the account.  If the account is only for you, pick a username that represents you individually. If the account is meant to become a 'Publisher' account used by a group, pick a meaningful username.</p>
+<p><img alt="Inscription" src="/img/user-en_account_index_1.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>Click on 'Next'. Your account is going to be created.</p>
+<h3 id="home-page">Home page</h3>
+<p>After signing-up, you arrive on the home page with three tabs:</p>
+<ul>
+<li>Home - welcome page</li>
+<li>Favorites - personal favorites and alerts créés</li>
+<li>Dashboards - tableaux personnels</li>
+</ul>
+<p>In our case, we have created an account with the username "TutoEN".</p>
+<p><img alt="Inscription" src="/img/user-en_account_index_2.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<h3 id="personal-information">Personal information</h3>
+<p>On the top right of the page, click on your username.</p>
+<p>The menu allows you to go back to the home page, to access the user guide and to configure your account ("My account").</p>
+<p>If you have been invited to another account by a collaborator, you will find a link in this menu.</p>
+<p>Click on  "My account" for you personal information. You can complete your name, a description of your account and add a profile picture.</p>
+<p><img alt="Inscription" src="/img/user-en_account_index_3.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>You can as well change the default language for the account and delete your account.</p>
+<p>We will get back on the other sections later.</p>
+<h2 id="your-favourites-and-alerts">Your Favourites and Alerts</h2>
+<p>Statit allows you to save the series or collections you need to help you find them easily.</p>
+<h3 id="following-a-collection">Following a collection</h3>
+<p>To get started, we are going to follow a collection.</p>
+<p>Head to the <a href="https://www.gostatit.com/world-bank/pink">Pink sheet</a> collection. This is a public collection redistributing international commodity prices compiled by the World Bank.</p>
+<p>On the top right of the page, you can see the 🖤 icon. Three options are possible:</p>
+<ul>
+<li>No alert - you will not receive an alert for this collection</li>
+<li>Alert on update - vous will receive an alert by email as soon as the collection is updated</li>
+<li>Alert once a week - you will receive an alert once a week on Thursday if the collection has been updated the previous week</li>
+</ul>
+<p><img alt="Collection favori" src="/img/user-en_favs_favs-alerts_0.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>Click on one of the options. You are now following the collection.</p>
+<h3 id="following-a-serie">Following a serie</h3>
+<p>Go now on <a href="https://www.gostatit.com/world-bank/pink/prices/agri/orange/eur">international orange prices</a> by the World Bank.</p>
+<p>On the top right, you will find the 🖤 icon. There are two more lines:</p>
+<ul>
+<li>
+<p>The first one is "Alert on update (with threshold)". This allows you to set an additional alert criteria. You will be alerted only if the last value of the serie meets the criteria you set.</p>
+</li>
+<li>
+<p>The second is "Add to a personal dashboard". We will cover this in the next section.</p>
+</li>
+</ul>
+<p>Click on "Alert on update". We will change this a bit later.</p>
+<h3 id="access-and-change-favorites">Access and change favorites</h3>
+<p>You have now created two favorites.</p>
+<p>Go back to your home page to access them. Click on your username on the top right and choose "Home".</p>
+<p>Click then on "Favorites" to see your favorites.</p>
+<p><img alt="Favoris" src="/img/user-en_favs_favs-alerts_1.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>If you want to update the alert or remove it, click on the toggle on the right of each favorite.</p>
+<h3 id="following-a-dashboard">Following a dashboard</h3>
+<p>Finally, it is possible to follow a dashboard.</p>
+<p>Go to the <a href="https://www.gostatit.com/i/world-bank/pink/summary">dashboard with commodity price indices</a> from the World Bank.</p>
+<p>On the top right, you can click on the 🖤 icon in the same way as with collections and series.</p>
+<h2 id="your-dashboards">Your Dashboards</h2>
+<p>To monitor even more closely the series you are interested in, Statit allows you to pull them together in your own dashboards.</p>
+<h3 id="creating-the-dashboard">Creating the dashboard</h3>
+<p>To start, we are going to create a personal dashboard.</p>
+<p>Our goal is to create a dashboard to monitor various energy prices internationally.</p>
+<p>Go on the home page of your account by clicking on "Home" in the menu on the top right of the page.</p>
+<p>Click on the "Dashboard" tab, then on the button "Create a dashboard" just under.</p>
+<p>You are reaching the following screen. You are now going to give an identifier and a name to your dashboard.</p>
+<p><img alt="Créer un tableau" src="/img/user-en_favs_dashboards_0.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>Here we have used "energy-prices" as an identifier and "International energy prices" as a name. You can use the identifiers and names you like.</p>
+<p>Click on "Save"</p>
+<h3 id="adding-charts">Adding charts</h3>
+<h4 id="first-chart">First chart</h4>
+<p>Let's visit first a chart that provides average daily electricity prices across Europe.</p>
+<p>This chart is part of an account with data from the association of electricity network operators in Europe. It is <a href="https://www.gostatit.com/i/entsoe/da_prices/overview">here</a>.</p>
+<p>On the top right of the line chart with the series, click on the three dots icon. Select "Add to a personal dashboard".</p>
+<p><img alt="Ajouter un graphique" src="/img/user-en_favs_dashboards_1.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>You are now being asked in which dashboard to add the chart. Select the one you have just created.</p>
+<p><img alt="Ajouter un graphique" src="/img/user-en_favs_dashboards_2.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>Click on "Save"</p>
+<h4 id="second-chart">Second chart</h4>
+<p>Let's add now a second chart with oil "futures". Go to this <a href="https://www.gostatit.com/i/eia/petroleum_prices_futures/overview">EIA dashboard</a>. Pick the chart with the series.</p>
+<p>Repeat the same steps to add this chart to your dashboard.</p>
+<h3 id="adding-series">Adding series</h3>
+<p>We have added two charts to our dashboard.</p>
+<p>We are now going to add a serie. You can for instance visit <a href="https://www.gostatit.com/grtgaz/price/fr-trf/daily/eur">French gas prices</a>
+ published by the French network operator.</p>
+<p>On the top right, click on the heart and add to a personal dashboard. Select the dashboard, the 'Line chart' format and save.</p>
+<h3 id="changing-charts">Changing charts</h3>
+<p>After adding the serie, you are redirected to your dashboard with the three charts above.</p>
+<p>We are going to change the last serie we have added to make it start in 2022. Click on the top right of the chart on "Update chart".</p>
+<p><img alt="Ajouter un graphique" src="/img/user-en_favs_dashboards_4.png" style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px" /></p>
+<p>In the field "Name", write 'Natural Gas Prices in EUR/ MWh'. Then, on the section below with series, click on the toggle on the right and choose 'Update'.</p>
+<p>In the "Start" cell, write "2022-01-01" to start on the 1st of January 2022. We use this way of writing dates with year, month and days  separated with dashes on Statit.</p>
+<p>In the "Color" section, pick a different color.</p>
+<p>Click on 'Save'.</p>
+<h3 id="accessing-your-dashboard">Accessing your dashboard</h3>
+<p>We have done this to create a dashboard that contains the key metrics we are interested in.</p>
+<p>You will find this dashboard in your "Home" on the "Dashboard" tab. The dashboard will always be up to date with the latest values.</p>
+<p>You can now create dashboards with series from public collections and private accounts of which you are a member.</p>
+<p>If you want to remove the dashboard, start by removing each chart (top right of the chart) and then remove the dashboard.</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+    
+  </body>
+</html>
