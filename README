@@ -6,6 +6,8 @@
 2023-03-20:
 ===========
 
+requires mkdocs-section-index : `pip install mkdocs-section-index`
+
 run local:
 - mkdocs serve
 
